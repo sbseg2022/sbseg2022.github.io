@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt"><!-- InstanceBegin template="/Templates/sbseg-pt.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  
-	<!-- InstanceBeginEditable name="doctitle" -->
+	<!-- TemplateBeginEditable name="doctitle" -->
     <title>SBSeg 2022</title>
-	<!-- InstanceEndEditable -->
+	<!-- TemplateEndEditable -->
 	  
     <!-- Bootstrap -->
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	<link href="css/sbseg.css" rel="stylesheet">
+	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/sbseg.css" rel="stylesheet">
 
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark sbseg-bg">
 		<div class="container">
-       <a class="navbar-brand" href="index.html"><img src="images/sbseg.png"  height="74" alt=""/></a>
+       <a class="navbar-brand" href="index.html"><img src="../images/logo-sbc.png" width="55" height="74" alt=""/></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
        </button>
@@ -29,10 +29,9 @@
                 O Evento
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <a class="dropdown-item" href="apresentacao.html">Apresentação</a>
-				   <a class="dropdown-item" href="sm.html">Santa Maria</a>
-                   <a class="dropdown-item" href="local-do-evento.html">Local do Evento</a>
-                   <a class="dropdown-item" href="edicoes-anteriores.html">Edições Anteriores</a>
+                   <a class="dropdown-item" href="#">Apresentação</a>
+                   <a class="dropdown-item" href="#">Local do Evento</a>
+                   <a class="dropdown-item" href="#">Edições Anteriores</a>
                 </div>
              </li>
 			 <li class="nav-item dropdown">
@@ -40,9 +39,9 @@
                 Comitês
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   	<a class="dropdown-item" href="organizacao-geral.html">Organização Geral</a>
-                   	<a class="dropdown-item" href="comite-consultivo.html">Comitê Consultivo</a>
-					<a class="dropdown-item" href="comite-local.html">Comitê Local</a>
+                   	<a class="dropdown-item" href="#">Organização Geral</a>
+                   	<a class="dropdown-item" href="#">Comitê Consultivo</a>
+					<a class="dropdown-item" href="#">Comitê Local</a>
 <!--                   	<a class="dropdown-item" href="#">Equipe Local</a>-->
                 </div>
              </li>
@@ -51,21 +50,20 @@
                 Chamadas
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <a class="dropdown-item" href="trilha-principal.html">Trilha Principal</a>
+                   <a class="dropdown-item" href="#">Trilha Principal</a>
                 </div>
              </li>
 			 <li class="nav-item">
-                <a class="nav-link" href="patrocinadores.html">Patrocinadores</a>
+                <a class="nav-link" href="#">Patrocinadores</a>
              </li>
 			 <li class="nav-item">
-                <a class="nav-link" href="contato.html">Contato</a>
+                <a class="nav-link" href="#">Contato</a>
              </li>
           </ul>
-<!--
 		   <ul class="navbar-nav mr-0">
              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="../images/brazil.png" alt="" width="32" height="32" class="img-fluid"/>
+                <img src="../images/united-states.png" alt="" width="32" height="32" class="img-fluid"/>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                    	<a class="dropdown-item" href="index.html"><img src="../images/brazil.png" alt="" width="32" height="32" class="img-fluid"/> Português</a>
@@ -73,11 +71,10 @@
 				 </div>
 			   </li>
 		   </ul>
--->
        </div>
 			</div>
     </nav>
-	<!-- InstanceBeginEditable name="body" -->
+	<!-- TemplateBeginEditable name="body" -->
     <div class="container ">
 	   	<section class='sbseg-main_image'>
 			<h1 class="sbseg-text-white">XXII Simpósio Brasileiro de Segurança da</h1>
@@ -88,9 +85,9 @@
 			<h1><br>XXII SBSeg 2022</h1>
 			<hr>
 			<p>O Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg) é um evento científico promovido anualmente pela Sociedade Brasileira de Computação (SBC) sob responsabilidade da Comissão Especial em Segurança da Informação e de Sistemas Computacionais (CESeg) da SBC. Ele representa o principal fórum do país para divulgação de resultados de pesquisas, debates, intercâmbio de ideias e atividades relevantes ligadas à segurança da informação e de sistemas computacionais, integrando a comunidade brasileira de pesquisadores e profissionais atuantes nessa área.</p>
-			<p>Em 2022, a 22ª edição do simpósio será organizada pela Universidade Federal de Santa Maria (UFSM) de 12 à 15 de Setembro de 2022. Em atenção ao cenário de riscos associado à pandemia do Covid-19, a coordenação do evento optou por realizar o evento no modelo online. O SBSeg22 será uma oportunidade única para os participantes aproveitarem as sessões técnicas, minicursos, workshops e palestras proferidas por convidados de renome internacional. Vale destacar que nesta edição será realizado o II Capture the Flag - SBSeg.</p>
+			<p>Em 2022, a 22ª edição do simpósio será organizada pela Universidade Federal de Santa Maria (UFSM) de 12 à 15 de Setembro de 2022. Em atenção ao cenário de riscos associado à pandemia do Covid-19, a coordenação do evento optou por realizar o evento no modelo online. O SBSeg22 será uma oportunidade única para os participantes aproveitarem as sessões técnicas, minicursos, workshops e palestras proferidas por convidados de renome internacional. Vale destacar que nesta edição será realizado o III Hackathon SBSeg.</p>
 		    <p>
-		  <h5>Os principais temas abordados nessa edição serão:</h5>
+				<h5>Os principais temas abordados nessa edição serão:</h5>
 			<hr>
 				<ul>
 					<li>Anonimização e privacidade</li>
@@ -124,13 +121,13 @@
                    <h4>Organização</h4>
 					<div class="row">
 						 <div class="col">
-							 <span class="sbseg-bodo-logos-helper"></span><a href="https://www.ufsm.br/unidades-universitarias/ct/"><img src="images/ct.png" width="140px;" class="sbseg-body-logos" alt="Centro de Tecnologia"> </a>
+							 <span class="sbseg-bodo-logos-helper"></span><a href="https://www.ufsm.br/unidades-universitarias/ct/"><img src="../images/ct.png" width="140px;" class="sbseg-body-logos" alt="Centro de Tecnologia"> </a>
 						 </div>
 						<div class="col">
-							 <span class="sbseg-bodo-logos-helper"></span><a href="http://ufsm.br"><img src="images/brasao.png" width="90px;" class="sbseg-body-logos" alt="UFSM"></a>
+							 <span class="sbseg-bodo-logos-helper"></span><a href="http://ufsm.br"><img src="../images/brasao.png" width="90px;" class="sbseg-body-logos" alt="UFSM"></a>
 						 </div>
 						<div class="col">
-							 <span class="sbseg-bodo-logos-helper"></span><a href="https://www.ufsm.br/unidades-universitarias/ctism/"><img src="images/ctism.png" width="85px;" class="sbseg-body-logos" alt="CTISM"></a>
+							 <span class="sbseg-bodo-logos-helper"></span><a href="https://www.ufsm.br/unidades-universitarias/ctism/"><img src="../images/ctism.png" width="85px;" class="sbseg-body-logos" alt="CTISM"></a>
 						 </div>
 					</div>		
 				</div>
@@ -143,7 +140,7 @@
                    <h4>Realização</h4>
 					<div class="row">
 						<div class="col text-center">
-							 <a href="http://sbc.org.br"><img src="images/logo-sbc.png" width="66px;" class="img-fluid" alt="UFSM"></a>
+							 <a href="http://sbc.org.br"><img src="../images/logo-sbc.png" width="66px;" class="img-fluid" alt="UFSM"></a>
 						 </div>
 					</div>		
 				</div>
@@ -151,12 +148,12 @@
           </div>
        </div>
     </div>
-	<!-- InstanceEndEditable -->
+	<!-- TemplateEndEditable -->
 	<br>
 	  <div class="nav sbseg-bg">
 		  <div class="container">
 			  <div class="row sbseg-footer">
-				  <div class="col-md-4"> <a class="navbar-brand" href="#"><img src="images/sbseg.png"  height="74" alt=""/></a> </div>
+				  <div class="col-md-4"> <a class="navbar-brand" href="#"><img src="../images/logo-sbc.png" width="55" height="74" alt=""/></a> </div>
 				  <div class="col-md-4 "> 
 					  <span class="">Edições Anteriores</span>
 					  <hr>
@@ -195,7 +192,7 @@
 					  <span class="">Entre em contato</span>
 					  <hr>
 					  <p style="height: 10px;" class="mb-0 d-flex">
-						<a href="#"><img src="images/email.png" width="150px" height="20px" alt=""/></a>
+						<a href="#"><img src="../images/email.png" width="150px" height="20px" alt=""/></a>
 					  </p>
 				  </div>
 			   </div>
@@ -203,9 +200,9 @@
 		  </div>
   </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->  
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
   </body>
-<!-- InstanceEnd --></html>
+</html>

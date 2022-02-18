@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt"><!-- InstanceBegin template="/Templates/sbseg-pt.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="pt">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  
-	<!-- InstanceBeginEditable name="doctitle" -->
+	<!-- TemplateBeginEditable name="doctitle" -->
     <title>SBSeg 2022</title>
-	<!-- InstanceEndEditable -->
+	<!-- TemplateEndEditable -->
 	  
     <!-- Bootstrap -->
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	<link href="css/sbseg.css" rel="stylesheet">
+	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/sbseg.css" rel="stylesheet">
 
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark sbseg-bg">
 		<div class="container">
-       <a class="navbar-brand" href="index.html"><img src="images/sbseg.png"  height="74" alt=""/></a>
+       <a class="navbar-brand" href="index.html"><img src="../images/sbseg.png"  height="74" alt=""/></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
        </button>
@@ -77,86 +77,19 @@
        </div>
 			</div>
     </nav>
-	<!-- InstanceBeginEditable name="body" -->
+	<!-- TemplateBeginEditable name="body" -->
     <div class="container ">
-	   	<section class='sbseg-main_image'>
-			<h1 class="sbseg-text-white">XXII Simpósio Brasileiro de Segurança da</h1>
-			<h1 class="sbseg-text-white">Informação e de Sistemas Computacionais</h1>
-			<h4 class="sbseg-text-white">Evento Semipresencial - 12 a 15 de Setembro de 2022</h4>
-    	</section>
-		<div class="sbseg-row text-justify">
-			<h1><br>XXII SBSeg 2022</h1>
-			<hr>
-			<p>O Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg) é um evento científico promovido anualmente pela Sociedade Brasileira de Computação (SBC) sob responsabilidade da Comissão Especial em Segurança da Informação e de Sistemas Computacionais (CESeg) da SBC. Ele representa o principal fórum do país para divulgação de resultados de pesquisas, debates, intercâmbio de ideias e atividades relevantes ligadas à segurança da informação e de sistemas computacionais, integrando a comunidade brasileira de pesquisadores e profissionais atuantes nessa área.</p>
-			<p>Em 2022, a 22ª edição do simpósio será organizada pela Universidade Federal de Santa Maria (UFSM) de 12 à 15 de Setembro de 2022. Em atenção ao cenário de riscos associado à pandemia do Covid-19, a coordenação do evento optou por realizar o evento no modelo online. O SBSeg22 será uma oportunidade única para os participantes aproveitarem as sessões técnicas, minicursos, workshops e palestras proferidas por convidados de renome internacional. Vale destacar que nesta edição será realizado o II Capture the Flag - SBSeg.</p>
-		    <p>
-		  <h5>Os principais temas abordados nessa edição serão:</h5>
-			<hr>
-				<ul>
-					<li>Anonimização e privacidade</li>
-					<li>Auditoria e análise de riscos em sistemas computacionais</li>
-					<li>Controle de acesso, autenticação, biometria, confiança, gestão de identidades</li>
-					<li>Criptografia e criptoanálise: algoritmos, protocolos e aplicações</li>
-					<li>Criptomoedas e mecanismos de consenso distribuído</li>
-					<li>Forense computacional e criminalística</li>
-					<li>Hardware seguro: RFIDs, cartões inteligentes, sensores, tamper-proof e tamper-evident modules</li>
-					<li>Intrusão: detecção, prevenção e resposta</li>
-					<li>Normatização e políticas de segurança</li>
-					<li>Proteção de propriedade intelectual e DRM</li>
-					<li>Segurança de aplicações (e-banking, smart grids, redes sociais, etc.)</li>
-					<li>Segurança de sistemas operacionais</li>
-					<li>Segurança em ambientes de computação em nuvem</li>
-					<li>Segurança em bancos de dados</li>
-					<li>Segurança em Internet das Coisas e sistemas embarcados</li>
-					<li>Segurança em redes de computadores</li>
-					<li>Segurança em redes móveis e redes veiculares</li>
-					<li>Software seguro: desenvolvimento, testes, certificação</li>
-					<li>Votação eletrônica</li>
-				</ul>
-			</p>
-       	</div>  
-		   
-       	<br>
-		<div class="sbseg-row">
-          <div class="col-md-6 text-center">
-             <div class="card">
-                <div class="card-body">
-                   <h4>Organização</h4>
-					<div class="row">
-						 <div class="col">
-							 <span class="sbseg-bodo-logos-helper"></span><a href="https://www.ufsm.br/unidades-universitarias/ct/"><img src="images/ct.png" width="140px;" class="sbseg-body-logos" alt="Centro de Tecnologia"> </a>
-						 </div>
-						<div class="col">
-							 <span class="sbseg-bodo-logos-helper"></span><a href="http://ufsm.br"><img src="images/brasao.png" width="90px;" class="sbseg-body-logos" alt="UFSM"></a>
-						 </div>
-						<div class="col">
-							 <span class="sbseg-bodo-logos-helper"></span><a href="https://www.ufsm.br/unidades-universitarias/ctism/"><img src="images/ctism.png" width="85px;" class="sbseg-body-logos" alt="CTISM"></a>
-						 </div>
-					</div>		
-				</div>
-               </div>
-             </div>
-          
-			<div class="col-md-6 text-center">
-             <div class="card">
-                <div class="card-body">
-                   <h4>Realização</h4>
-					<div class="row">
-						<div class="col text-center">
-							 <a href="http://sbc.org.br"><img src="images/logo-sbc.png" width="66px;" class="img-fluid" alt="UFSM"></a>
-						 </div>
-					</div>		
-				</div>
-               </div>
-          </div>
-       </div>
+		<br>
+		<h1>Page Title</h1>
+		<hr>
+		<p>&nbsp;</p>	
     </div>
-	<!-- InstanceEndEditable -->
+	<!-- TemplateEndEditable -->
 	<br>
 	  <div class="nav sbseg-bg">
 		  <div class="container">
 			  <div class="row sbseg-footer">
-				  <div class="col-md-4"> <a class="navbar-brand" href="#"><img src="images/sbseg.png"  height="74" alt=""/></a> </div>
+				  <div class="col-md-4"> <a class="navbar-brand" href="#"><img src="../images/sbseg.png"  height="74" alt=""/></a> </div>
 				  <div class="col-md-4 "> 
 					  <span class="">Edições Anteriores</span>
 					  <hr>
@@ -195,7 +128,7 @@
 					  <span class="">Entre em contato</span>
 					  <hr>
 					  <p style="height: 10px;" class="mb-0 d-flex">
-						<a href="#"><img src="images/email.png" width="150px" height="20px" alt=""/></a>
+						<a href="#"><img src="../images/email.png" width="150px" height="20px" alt=""/></a>
 					  </p>
 				  </div>
 			   </div>
@@ -203,9 +136,9 @@
 		  </div>
   </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->  
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
   </body>
-<!-- InstanceEnd --></html>
+</html>
