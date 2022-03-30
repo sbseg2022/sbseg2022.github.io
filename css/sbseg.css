@@ -29,21 +29,17 @@ body {
 	color: #21376b !important;
 }
 
-.sbseg-main_image{
-    height: 400px;
+.sbseg-main-image{
+    height: 600px;
     width: 100%;
     text-align: center;
     padding-top: 10px;
     color: white;
     overflow: hidden;
     background: #C04848;  /* fallback for old browsers */
-/*    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../images/planetario.jpg");   Chrome 10-25, Safari 5.1-6 */
-/*    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../images/planetario.jpg");  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	  background:  url("../images/pictures/planetario.jpg");
-	  background:  url("../images/pictures/planetario.jpg");
+    background: linear-gradient(rgb(36,36,36,0.5), rgb(36,36,36,0.5)), url("../images/pictures/planetario.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 h1, h2, h3, h4, h5, h6 {
