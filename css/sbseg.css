@@ -43,7 +43,7 @@ body {
 	  background:  url("../images/pictures/planetario.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
