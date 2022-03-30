@@ -33,18 +33,17 @@ body {
     height: 400px;
     width: 100%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
     color: white;
     overflow: hidden;
     background: #C04848;  /* fallback for old browsers */
 /*    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../images/planetario.jpg");   Chrome 10-25, Safari 5.1-6 */
 /*    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../images/planetario.jpg");  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: linear-gradient(rgb(33,55,107,0.7), rgb(24,86,180,0.2)), url("../images/pictures/planetario.jpg");
-	background: linear-gradient(rgb(33,55,107,0.7), rgb(31,76,144,0.2)), url("../images/pictures/planetario.jpg");
+	  background:  url("../images/pictures/planetario.jpg");
+	  background:  url("../images/pictures/planetario.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 h1, h2, h3, h4, h5, h6 {
