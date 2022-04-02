@@ -17,25 +17,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+defaults:
+  - scope:
+      path: "pt-br"
+    values:
+      lang: "pt-br"
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
 
 title: SBSeg 2022
 email: sbseg2022@ufsm.br
 description: >- # this means to ignore newlines until "baseurl:"
-  O Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg)
-  é um evento científico promovido anualmente pela Sociedade Brasileira de Computação
-  (SBC) sob responsabilidade da Comissão Especial em Segurança da Informação e de
-  Sistemas Computacionais (CESeg) da SBC. Ele representa o principal fórum do país
-  para divulgação de resultados de pesquisas, debates, intercâmbio de ideias e atividades
-  relevantes ligadas à segurança da informação e de sistemas computacionais, integrando 
-  a comunidade brasileira de pesquisadores e profissionais atuantes nessa área.
+  Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+google_analytics: "G-W13TWW07NR"
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+#theme: minima
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
