@@ -1,5 +1,9 @@
 /* CSS Document */
 
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
 .sbseg-container {
   width: 100%;
   padding-right: 15px;
@@ -43,12 +47,40 @@
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
- h1, h2, h3, h4, h5, h6 {
-	color:#004e7a;
-	font-family: "Saira", sans-serif;
-    font-weight:400;
-	 
+h1, h2, h3, h4, h5, h6 {
+  color: #004e7a;
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
 }
+
+h4 > a {
+  color: #004e7a;
+}
+
+h4 > a:hover {
+  color: #004e7a;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 23px;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 19px;
+}
+
 
 p {
 	text-align: justify !important;
