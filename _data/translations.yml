@@ -56,6 +56,14 @@ organizacao-geral:
     title: "Organizing Committee"
     link: "en/oc.html"
 
+equipe-local:
+  pt-br:
+    title: "Equipe Local"
+    link: "equipe-local.html"
+  en:
+    title: "Local Staff"
+    link: "en/local-staff.html"
+
 chamadas:
   pt-br: "Chamadas"
   en: "Calls"
@@ -75,6 +83,12 @@ minicursos:
   en:
     title: "Short Courses"
     link: "en/short-courses.html"
+
+wticg:
+  pt-br:
+    title: "WTICG"
+    link: "chamada_wticg.html"
+  
 
 patrocinadores:
   pt-br:
