@@ -88,6 +88,11 @@ wticg:
   pt-br:
     title: "WTICG"
     link: "chamada_wticg.html"
+
+sf:
+  pt-br:
+    title: "Salão de Ferramentas"
+    link: "chamada_sf.html"
   
 
 patrocinadores:
