@@ -93,7 +93,6 @@ sf:
   pt-br:
     title: "Salão de Ferramentas"
     link: "chamada_sf.html"
-  
 
 patrocinadores:
   pt-br:
@@ -102,3 +101,15 @@ patrocinadores:
   en:
     title: "Supporters"
     link: "en/supporters.html"
+
+latest-news:
+  pt-br: "Últimas notícias"
+  en: "Latest news"
+
+short-date-format:
+  pt-br: "%d/%m"
+  en: "%m/%d"
+
+date-format:
+  pt-br: "%d/%m/%Y"
+  en: "%m/%d/%Y"
