@@ -38,10 +38,9 @@ body {
 
 .sbseg-bg {
     background-color: #21376b;
-    color: #21376b;
 }
 
-.sbseg-main-image{
+.sbseg-main-image {
     height: 600px;
     width: 100%;
     text-align: center;
@@ -51,6 +50,7 @@ body {
     background: #C04848;  /* fallback for old browsers */
     background: linear-gradient(rgb(36,36,36,0.5), rgb(36,36,36,0.5)), url("../images/pictures/planetario.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -87,7 +87,26 @@ h5 {
     font-weight: 600;
     font-size: 19px;
 }
+.btn-sbseg {
+    color: #fff;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #004E7A;
+    border-radius: 10px;
+    transition: background-color 0.15s ease-in-out;
+}
 
+.btn-sbseg:hover {
+    color: #fff;
+    background-color: #00457a;
+    text-decoration: none;
+}
 
 p {
     text-align: justify !important;
