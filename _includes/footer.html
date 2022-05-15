@@ -1,13 +1,16 @@
 <footer class="sbseg-bg">
     <div class="container">
         <div class="row sbseg-footer">
-            <div class="col-md-3"><a class="navbar-brand" href="#"><img src="{{ "/images/sbseg.png" | relative_url }}"
-                height="74" alt=""/></a></div>
-            <div class="col">
+            <div class="col-12 col-lg-3 text-center text-lg-left">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/sbseg.png" height="74" alt=""/>
+                </a>
+            </div>
+            <div class="col text-center text-md-left mt-5 mt-lg-0 edicoes-anteriores">
                 <div class="text-center w-100">Edições Anteriores</div>
                 <hr>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-md-6">
                         <a href="https://sbseg2021.ufpa.br" target="_blank"> SBSeg 2021 (Belém-PA)</a>
                         <br>
                         <a href="http://sbseg.sbc.org.br/2020/" target="_blank">SBSeg 2020 (Petrópolis-RJ)</a>
@@ -19,7 +22,7 @@
                         <a href="https://sbseg2017.redes.unb.br/" target="_blank">SBSeg 2017 (Brasília-DF)</a>
                         <br>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-6">
                         <a href="http://sbseg2016.ic.uff.br/" target="_blank">SBSeg 2016 (Niterói-RJ)</a>
                         <br>
                         <a href="https://siaiap34.univali.br/sbseg2015/" target="_blank">SBSeg 2015 (Florianópolis-SC)</a>
@@ -33,12 +36,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-12 col-lg-3 text-center text-lg-left mt-5 mt-lg-0">
                 <span>Entre em contato</span>
                 <hr>
-                <p class="mb-0 d-flex">
-                    <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
             </div>
         </div>
     </div>
