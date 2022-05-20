@@ -337,3 +337,7 @@ p {
 .datas-importantes {
     border-radius: 20px;
 }
+
+.social-icons > .fa-brands {
+    font-size: 42px;
+}
