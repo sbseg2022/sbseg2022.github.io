@@ -309,6 +309,23 @@ p {
     padding-right: 0;
     text-transform: uppercase;
     font-size: 16px;
+<<<<<<< Updated upstream
     letter-spacing: .1em; }
     .navbar-dark .navbar-toggler:focus {
       outline: none !important; }
+=======
+    letter-spacing: .1em;
+}
+
+.navbar-dark .navbar-toggler:focus {
+    outline: none !important;
+}
+
+.datas-importantes {
+    border-radius: 20px;
+}
+
+eventos {
+    position:absolute;
+}
+>>>>>>> Stashed changes
