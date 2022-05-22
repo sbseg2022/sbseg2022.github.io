@@ -1,13 +1,16 @@
 <footer class="sbseg-bg">
     <div class="container">
         <div class="row sbseg-footer">
-            <div class="col-md-3"><a class="navbar-brand" href="#"><img src="{{ "/images/sbseg.png" | relative_url }}"
-                height="74" alt=""/></a></div>
-            <div class="col">
+            <div class="col-12 col-lg-auto text-center text-lg-left">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/sbseg.png" height="74" alt=""/>
+                </a>
+            </div>
+            <div class="col text-center text-lg-left mt-5 mt-lg-0 edicoes-anteriores">
                 <div class="text-center w-100">Edições Anteriores</div>
                 <hr>
-                <div class="row">
-                    <div class="col">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
                         <a href="https://sbseg2021.ufpa.br" target="_blank"> SBSeg 2021 (Belém-PA)</a>
                         <br>
                         <a href="http://sbseg.sbc.org.br/2020/" target="_blank">SBSeg 2020 (Petrópolis-RJ)</a>
@@ -18,8 +21,6 @@
                         <br>
                         <a href="https://sbseg2017.redes.unb.br/" target="_blank">SBSeg 2017 (Brasília-DF)</a>
                         <br>
-                    </div>
-                    <div class="col">
                         <a href="http://sbseg2016.ic.uff.br/" target="_blank">SBSeg 2016 (Niterói-RJ)</a>
                         <br>
                         <a href="https://siaiap34.univali.br/sbseg2015/" target="_blank">SBSeg 2015 (Florianópolis-SC)</a>
@@ -33,12 +34,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <span>Entre em contato</span>
+            <div class="col-12 col-lg-auto text-center text-lg-left mt-5 mt-lg-0">
+                <div>Redes sociais</div>
                 <hr>
-                <p class="mb-0 d-flex">
-                    <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
+                <nav class="social-icons mb-5">
+                    <a href="https://www.facebook.com/SBSegSBC/" target="_blank" class="fa-brands fa-facebook nav-link" title="facebook"></a>
+                    <a href="https://www.instagram.com/sbseg.sbc/" target="_blank" class="fa-brands fa-instagram nav-link" title="Instagram"></a>
+                    <a href="https://twitter.com/sbseg_sbc" target="_blank" class="fa-brands fa-twitter nav-link" title="twitter"></a>
+                </nav>
+                <div>Entre em contato</div>
+                <hr>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
             </div>
         </div>
     </div>

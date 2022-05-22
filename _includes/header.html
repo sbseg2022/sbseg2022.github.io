@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-dark sbseg-bg">
   <div class="container">
-    <a class="navbar-brand" href="{{ site.data.translations.idioma[page.lang].index  | relative_url }}"><img src="{{ "/images/sbseg.png"  | relative_url }}"  height="74" alt=""/></a>
+    <a class="navbar-brand" href="{{ site.data.translations.idioma[page.lang].index  | relative_url }}"><img src="/images/sbseg.png" height="74" alt=""/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-evento" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn nav-link dropdown-toggle w-100" id="navbar-dropdown-evento" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ site.data.translations.evento[page.lang] }}
-          </a>
+          </button>
           <div class="dropdown-menu" aria-labelledby="navbar-dropdown-evento">
             <a class="dropdown-item" href="{{ site.data.translations.apresentacao[page.lang].link | relative_url }}">{{ site.data.translations.apresentacao[page.lang].title }}</a>
             <a class="dropdown-item" href="{{ site.data.translations.sm[page.lang].link | relative_url }}">{{ site.data.translations.sm[page.lang].title }}</a>
@@ -18,18 +18,18 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-comites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn nav-link dropdown-toggle w-100" id="navbar-dropdown-comites" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ site.data.translations.comites[page.lang] }}
-          </a>
+          </button>
           <div class="dropdown-menu" aria-labelledby="navbar-dropdown-comites">
             <a class="dropdown-item" href="{{ site.data.translations.organizacao-geral[page.lang].link | relative_url }}">{{ site.data.translations.organizacao-geral[page.lang].title }}</a>
             <a class="dropdown-item" href="{{ site.data.translations.equipe-local[page.lang].link | relative_url }}">{{ site.data.translations.equipe-local[page.lang].title }}</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-chamadas" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn nav-link dropdown-toggle w-100" id="navbar-dropdown-chamadas" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ site.data.translations.chamadas[page.lang] }}
-          </a>
+          </button>
           <div class="dropdown-menu" aria-labelledby="navbar-dropdown-chamadas">
             <a class="dropdown-item" href="{{ site.data.translations.trilha-principal[page.lang].link | relative_url }}">{{ site.data.translations.trilha-principal[page.lang].title }}</a>
             <a class="dropdown-item" href="{{ site.data.translations.minicursos[page.lang].link | relative_url }}">{{ site.data.translations.minicursos[page.lang].title }}</a>
@@ -38,14 +38,14 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.data.translations.patrocinadores[page.lang].link | relative_url }}">{{ site.data.translations.patrocinadores[page.lang].title }}</a>
+          <a class="btn nav-link" href="{{ site.data.translations.patrocinadores[page.lang].link | relative_url }}">{{ site.data.translations.patrocinadores[page.lang].title }}</a>
         </li>
       </ul>
       <ul class="navbar-nav mr-0">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn nav-link dropdown-toggle w-100" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img src="{{ site.data.translations.idioma[page.lang].image | relative_url }}" alt="" width="32" height="32" class="img-fluid"/>
-          </a>
+          </button>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{ site.data.translations.idioma.pt-br.index | relative_url }}"><img src="{{ site.data.translations.idioma.pt-br.image | relative_url }}" alt="" width="32" height="32" class="img-fluid"/> {{ site.data.translations.idioma.pt-br.name }}</a>
             <a class="dropdown-item" href="{{ site.data.translations.idioma.en.index | relative_url }}"><img src="{{ site.data.translations.idioma.en.image | relative_url }}" alt="" width="32" height="32" class="img-fluid"/> {{ site.data.translations.idioma.en.name }}</a>

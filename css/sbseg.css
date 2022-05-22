@@ -55,19 +55,19 @@ body {
 
 .sbseg-bg {
     background-color: #21376b;
-    color: #21376b;
 }
 
-.sbseg-main-image{
-    height: 600px;
+.sbseg-main-image {
+    min-height: 600px;
     width: 100%;
     text-align: center;
-    padding-top: 10px;
+    padding: 15px 0;
     color: white;
     overflow: hidden;
     background: #C04848;  /* fallback for old browsers */
     background: linear-gradient(rgb(36,36,36,0.5), rgb(36,36,36,0.5)), url("../images/pictures/planetario.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -105,6 +105,26 @@ h5 {
     font-weight: 600;
     font-size: 19px;
 }
+.btn-sbseg {
+    color: #fff;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #004E7A;
+    border-radius: 10px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.btn-sbseg:hover {
+    color: #fff;
+    background-color: #00457a;
+    text-decoration: none;
+}
 
 .sbseg-text-white {
     color: white;
@@ -113,7 +133,7 @@ h5 {
 .sbseg-footer {
     font-size: 11px;
     color: white;
-    padding: 2rem 20px;
+    padding: 2rem 0;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -153,7 +173,7 @@ h5 {
 }
 
 .sbseg-photo {
-    background-color: white !important;
+    background-color: white;
     background-clip: border-box;
     background-origin: padding-box;
     background-size: auto;
@@ -178,7 +198,7 @@ h5 {
 }
 
 .navbar-dark {
-    background: #21376b !important;
+    background: #21376b;
     z-index: 3;
     padding: 0;
     -webkit-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
@@ -188,7 +208,6 @@ h5 {
 
 @media (max-width: 992px) {
     .navbar-dark {
-        background: #fff;
         position: relative;
         top: 0;
         padding: 10px 15px;
@@ -236,7 +255,7 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
-    opacity: 1 !important;
+    opacity: 1;
 }
 
 .navbar-dark .navbar-nav > .nav-item > .nav-link:before {
@@ -309,53 +328,9 @@ h5 {
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav > .nav-item .dropdown-menu {
-        display: block !important;
         background: #fff;
         -webkit-box-shadow: none;
         box-shadow: none;
-    }
-}
-
-.navbar-dark .navbar-nav > .nav-item.cta > a {
-    color: #fff;
-    background: #204c90;
-    border-radius: 0px;
-}
-
-@media (max-width: 767.98px) {
-    .navbar-dark .navbar-nav > .nav-item.cta > a {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav > .nav-item.cta > a {
-        color: #fff;
-        background: #204c90;
-        border-radius: 4px;
-    }
-}
-
-.navbar-dark .navbar-nav > .nav-item.active > a {
-    color: white;
-}
-
-.navbar-dark .navbar-nav > .nav-item.active > a:before {
-    visibility: visible;
-    background-color: #204c90;
-    -webkit-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-@media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav > .nav-item.active > a {
-        color: #000;
-    }
-
-    .navbar-dark .navbar-nav > .nav-item.active > a:before {
-        display: none;
     }
 }
 
@@ -370,9 +345,13 @@ h5 {
 }
 
 .navbar-dark .navbar-toggler:focus {
-    outline: none !important;
+    outline: none;
 }
 
 .datas-importantes {
     border-radius: 20px;
+}
+
+.social-icons > .fa-brands {
+    font-size: 42px;
 }
