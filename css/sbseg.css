@@ -341,3 +341,7 @@ p {
 .social-icons > .fa-brands {
     font-size: 42px;
 }
+
+.gy-5 {
+    row-gap: 3rem;
+}

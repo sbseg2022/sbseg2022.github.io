@@ -64,6 +64,14 @@ equipe-local:
     title: "Local Staff"
     link: "en/local-staff.html"
 
+comite-tecnico:
+  pt-br:
+    title: "Comitê Técnico"
+    link: "comite-tecnico.html"
+  en:
+    title: "Technical Committee"
+    link: "technical-committee.html"
+
 chamadas:
   pt-br: "Chamadas"
   en: "Calls"
@@ -93,7 +101,11 @@ sf:
   pt-br:
     title: "Salão de Ferramentas"
     link: "chamada_sf.html"
-  
+
+ctd:
+  pt-br:
+    title: "CTD"
+    link: "chamada_ctd.html"
 
 patrocinadores:
   pt-br:
@@ -102,14 +114,6 @@ patrocinadores:
   en:
     title: "Supporters"
     link: "en/supporters.html"
-
-comite-tecnico:
-  pt-br:
-    title: "Comitê Técnico"
-    link: "comite-tecnico.html"
-  en:
-    title: "Technical Committee"
-    link: "technical-committee.html"
 
 ceseg:
   pt-br:
