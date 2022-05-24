@@ -110,3 +110,11 @@ comite-tecnico:
   en:
     title: "Technical Committee"
     link: "technical-committee.html"
+
+ceseg:
+  pt-br:
+    title: "CESeg"
+    link: "ceseg.html"
+  en:
+    title: "CESeg"
+    link: "ceseg-en.html"
