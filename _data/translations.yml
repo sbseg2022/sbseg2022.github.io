@@ -102,3 +102,11 @@ patrocinadores:
   en:
     title: "Supporters"
     link: "en/supporters.html"
+
+comite-tecnico:
+  pt-br:
+    title: "Comitê Técnico"
+    link: "comite-tecnico.html"
+  en:
+    title: "Technical Committee"
+    link: "technical-committee.html"
