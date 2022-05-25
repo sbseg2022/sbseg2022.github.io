@@ -342,12 +342,10 @@ p {
     font-size: 42px;
 }
 
-<<<<<<< HEAD
 .gy-5 {
     row-gap: 3rem;
-=======
+}
 .sponsor {
     display: flex;
     justify-content: center;
->>>>>>> update-site
 }
