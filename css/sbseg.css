@@ -36,21 +36,42 @@ body {
     }
 }
 
-.posts > .list-group-item {
-    height: 180px;
+.posts > a.list-group-item {
+    height: 110px;
+    color: #000000;
 }
 
-.posts > .list-group-item:nth-child(2n) {
+.posts > a.list-group-item:hover {
+    text-decoration: none;
+}
+
+.posts > a.list-group-item:nth-child(2n) {
     background-color: #004E7A;
     color: white;
 }
 
-.posts > .list-group-item:nth-child(2n) > a > h4, .posts > .list-group-item:nth-child(2n) > a {
+.posts > a.list-group-item:nth-child(2n) h4 {
     color: white;
 }
 
-.posts > .list-group-item:nth-child(2n) > a:hover {
-    text-decoration: underline;
+.posts > a.list-group-item .thumbnail {
+    width: 72px;
+    height: 72px;
+}
+
+.thumbnail {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.text-ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.subheading {
+    font-size: 11px;
 }
 
 .sbseg-bg {
