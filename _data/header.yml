@@ -1,0 +1,99 @@
+languages:
+  pt-br:
+    name: "Português"
+    index: "/"
+    image: "images/brazil.png"
+  en:
+    name: "English"
+    index: "en"
+    image: "images/united-states.png"
+
+headers:
+  - pt-br:
+      title: "Inscrições"
+      link: "/inscricoes.html"
+
+  - pt-br: "O Evento"
+    en: "About"
+    dropdown-items:
+      - pt-br:
+          title: "Apresentação"
+          link: "apresentacao.html"
+        en:
+          title: "About"
+          link: "en/about.html"
+      - pt-br:
+          title: "Santa Maria"
+          link: "sm.html"
+        en:
+          title: "Santa Maria"
+          link: "en/sm.html"
+      - pt-br:
+          title: "Local do Evento"
+          link: "local-do-evento.html"
+        en:
+          title: "Venue"
+          link: "en/venue.html"
+      - pt-br:
+          title: "Edições Anteriores"
+          link: "edicoes-anteriores.html"
+        en:
+          title: "Previous Editions"
+          link: "en/previous-editions.html"
+  - pt-br: "Comitês"
+    en: "Committees"
+    dropdown-items:
+      - pt-br:
+          title: "Organização Geral"
+          link: "organizacao-geral.html"
+        en:
+          title: "Organizing Committee"
+          link: "en/oc.html"
+      - pt-br:
+          title: "Equipe Local"
+          link: "equipe-local.html"
+        en:
+          title: "Local Staff"
+          link: "en/local-staff.html"
+      - pt-br:
+          title: "Comitê Técnico"
+          link: "comite-tecnico.html"
+        en:
+          title: "Technical Committee"
+          link: "technical-committee.html"
+      - pt-br:
+          title: "CESeg"
+          link: "ceseg.html"
+        en:
+          title: "CESeg"
+          link: "ceseg-en.html"
+  - pt-br: "Chamadas"
+    en: "Calls"
+    dropdown-items:
+      - pt-br:
+          title: "Trilha Principal"
+          link: "trilha-principal.html"
+        en:
+          title: "Main Track"
+          link: "en/main-track.html"
+      - pt-br:
+          title: "Minicursos"
+          link: "minicursos.html"
+        en:
+          title: "Short Courses"
+          link: "en/short-courses.html"
+      - pt-br:
+          title: "WTICG"
+          link: "chamada_wticg.html"
+      - pt-br:
+          title: "Salão de Ferramentas"
+          link: "chamada_sf.html"
+      - pt-br:
+          title: "CTD"
+          link: "chamada_ctd.html"
+  - pt-br:
+      title: "Patrocinadores"
+      link: "patrocinadores.html"
+    en:
+      title: "Supporters"
+      link: "en/supporters.html"

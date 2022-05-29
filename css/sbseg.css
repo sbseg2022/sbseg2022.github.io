@@ -363,3 +363,9 @@ h5 {
     display: flex;
     justify-content: center;
 }
+
+.table .thead-sbseg th {
+    color: #fff;
+    background-color: #21376b;
+    border-color: #1d2f58;
+}
