@@ -3,11 +3,11 @@
 
 {%- include head.html -%}
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
 {%- include header.html -%}
 
-<main class="page-content" aria-label="Content">
+<main class="page-content flex-grow-1" aria-label="Content">
     <div class="wrapper">
         {{ content }}
     </div>
@@ -21,4 +21,9 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/js/popper.min.js"></script>
 <script src="/js/bootstrap-4.4.1.js"></script>
+{% if page.search %}
+<!-- Search engine -->
+<script src="/js/fuse.js"></script>
+<script src="/js/search.js"></script>
+{% endif %}
 </html>
