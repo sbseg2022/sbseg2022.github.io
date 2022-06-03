@@ -1,0 +1,19 @@
+carlos-raniery:
+  name: "Carlos Raniery Paula dos Santos"
+  university: "UFSM"
+  pic: "/images/photos/raniery.jpg"
+
+walter-filho:
+  name: "Walter Priesnitz Filho"
+  university: "UFSM"
+  pic: "/images/photos/walter.jpg"
+
+michele-silveira:
+  name: "Michele Nogueira"
+  university: "UFMG"
+  pic: "/images/photos/michele-silveira.png"
+
+igor-moraes:
+  name: "Igor Moraes"
+  university: "UFF"
+  pic: "/images/photos/igor-moraes.png"

@@ -1,0 +1,20 @@
+{% assign staff = include.staff | split: ", " %}
+<div class="row gy-5">
+    {% for s in staff %}
+        {% assign person = site.data.staff[s] %}
+        <div class="col-md-6 text-center">
+            <div class="card">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="sbseg-palestrante-pic" src="{{ person.pic }}"
+                             alt="{{ person.name }}">
+                    </div>
+                    <div class="col-sm-8 text-left my-auto">
+                        <h5 class="card-title">{{ person.name }}</h5>
+                        <p class="card-text"><strong>{{ person.university }}</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
