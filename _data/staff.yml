@@ -17,3 +17,23 @@ igor-moraes:
   name: "Igor Moraes"
   university: "UFF"
   pic: "/images/photos/igor-moraes.png"
+
+jean-martina:
+  name: "Jean Everson Martina"
+  university: "UFSC"
+  pic: "/images/photos/jean-martina.jpeg"
+
+emerson-ribeiro:
+  name: "Emerson Ribeiro de Mello"
+  university: "IFSC"
+  pic: "/images/photos/emerson.jpg"
+
+raul-ceretta:
+  name: "Raul Ceretta Nunes"
+  university: "UFSM"
+  pic: "/images/photos/raul.jpg"
+
+diego-kreutz:
+  name: "Diego Kreutz"
+  university: "Unipampa"
+  pic: "/images/photos/diego-kreutz.png"

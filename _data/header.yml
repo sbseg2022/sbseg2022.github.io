@@ -91,6 +91,9 @@ headers:
       - pt-br:
           title: "CTD"
           link: "chamada_ctd.html"
+      - pt-br:
+          title: "WGID"
+          link: "chamada-wgid.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
