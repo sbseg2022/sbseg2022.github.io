@@ -1,0 +1,21 @@
+diamond: &diamond
+  class: "diamond-supporter"
+  en: "Diamond"
+  pt-br: "Diamante"
+
+silver: &silver
+  class: "silver-supporter"
+  en: "Silver"
+  pt-br: "Prata"
+
+ripple:
+  name: "Ripple Crypto"
+  logo: "/images/Ripple_logo.png"
+  website: "https://ripple.com/"
+  level: *silver
+
+xlabs:
+  name: "XLabs Security"
+  logo: "/images/xlabs-logo.png"
+  website: "https://www.xlabs.com.br/"
+  level: *diamond

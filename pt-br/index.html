@@ -74,9 +74,9 @@ permalink: /
             <div class="col-12 col-md-6">
                 <h4><a href="chamada_wticg.html">WTICG</a></h4>
                 <ul>
-                    <li><p><strong>Registro de artigos: </strong><s>20 de Maio de 2022</s> 03 de Junho de 2022</p></li>
-                    <li><p><strong>Submissão de artigos: </strong><s>27 de Maio de 2022</s> 10 de Junho de 2022</p></li>
-                    <li><p><strong>Notificação aos autores: </strong>até 23 de Julho de 2022</p></li>
+                    <li><p><strong>Registro de artigos: </strong><s>20 de Maio de 2022</s> <s>03 de Junho de 2022</s> 13 de Junho de 2022</p></li>
+                    <li><p><strong>Submissão de artigos: </strong><s>27 de Maio de 2022</s> <s>10 de Junho de 2022</s> 27 de Junho de 2022</p></li>
+                    <li><p><strong>Notificação aos autores: </strong>até <s>23 de Julho de 2022</s> 01 de Agosto</p></li>
                 </ul>
             </div>
             <div class="col-12 col-md-6">
@@ -149,24 +149,20 @@ permalink: /
         </div>
     </div>
     <hr>
-
-        <div class="row sponsor">
-            <div class="col-md-6 mt-1.6">
-                <div class="card ">
-                    <div class="card-body p-3">
-                        <h4 class="pb-5 text-center">Patrocínio</h4>
-                        <div class="row align-items-center">
-                            <div class="col text-center">
-                                <h6>Prata</h6>
-                                <a href="https://ripple.com/" target="_blank">
-                                    <img src="images/Ripple_logo.png" width="165px;" alt="Ripple crypto">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+    <div class="text-center">
+        <h4>Patrocínio</h4>
+        <div class="row no-gutters gy-5">
+            <div class="card col-12">
+                <div class="card-body diamond-supporters">
+                    {% include supporters.html supporters="xlabs" level="diamond" %}
+                </div>
+            </div>
+            <div class="card col-12">
+                <div class="card-body silver-supporters">
+                    {% include supporters.html supporters="ripple" level="silver" %}
                 </div>
             </div>
         </div>
-
+    </div>
 </div>
 <br>
