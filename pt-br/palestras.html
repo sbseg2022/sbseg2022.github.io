@@ -13,13 +13,13 @@ title: Palestras
             <div class="fonte-grande"><strong>Título: </strong> {{ lecture.title }}
             </div>
             <div>
-                <h4 class="fonte-grande">Biografia:</h4>
-                <p>{{ lecture.speaker.biography }}</p>
+                <h4>Resumo:</h4>
+                <p>{{ lecture.abstract }}</p>
             </div>
         </div>
         <div>
-            <h4>Resumo:</h4>
-            <p>{{ lecture.abstract }}</p>
+            <h4 class="fonte-grande">Biografia:</h4>
+            <p>{{ lecture.speaker.biography }}</p>
         </div>
     </div>
 {% endfor %}
