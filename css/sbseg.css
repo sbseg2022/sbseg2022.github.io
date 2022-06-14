@@ -149,6 +149,18 @@ p {
     float: left;
 }
 
+.palestra .sbseg-palestrante-pic {
+    margin: 0 20px 20px 0;
+    border-radius: 20px;
+    width: 232px;
+    height: 328px;
+}
+
+.fonte-grande {
+    font-size: 27px;
+    color: #004E7A;
+}
+
 .sbseg-pic {
     width: 160px;
     height: 120px;

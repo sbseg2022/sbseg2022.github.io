@@ -3,72 +3,23 @@ permalink: /palestras.html
 layout: page
 title: Palestras
 ---
-<div class="titulo">SBSeg2022 </div>
-<div class="palestra">
-    <div class="tema">Título: Mitigating microarchitectural attacks by co-designing hardware and software countermeasures</div>
-    <div class="pessoal">Orador: Frank Piessens</div>
-    <div class="foto">
-        <img class="sbseg-palestrante-pic" src="../images/photos/frank-piessens.jpg" alt="Frank Piessens">
+{% for lecture in site.data.lecture.lectures %}
+    <div class="palestra">
+        <div class="clearfix">
+            <div class="foto">
+                <img class="sbseg-palestrante-pic" src="{{ lecture.speaker.pic }}" alt="{{ lecture.speaker.name }}">
+            </div>
+            <h2>{{ lecture.speaker.name }} ({{ lecture.speaker.institution }})</h2>
+            <div class="fonte-grande"><strong>Título: </strong> {{ lecture.title }}
+            </div>
+            <div>
+                <h4 class="fonte-grande">Biografia:</h4>
+                <p>{{ lecture.speaker.biography }}</p>
+            </div>
+        </div>
+        <div>
+            <h4>Resumo:</h4>
+            <p>{{ lecture.abstract }}</p>
+        </div>
     </div>
-    <div class="biografia">Biografia: Frank Piessens is a full professor in the Department of Computer Science at the Katholieke Universiteit Leuven, Belgium. His research field is software and systems security.  He has worked both on attack techniques, as well as on defenses. On the defense side, he has contributed to verification techniques for C-like languages, the enforcement of information flow security, countermeasures for memory safety related vulnerabilities, and the design and implementation of embedded security architectures. On the attack side, he has contributed to the discovery of several transient execution attacks, and to the development of exploitation techniques for memory safety vulnerabilities. Frank has served on the program committee of numerous security and software conferences including ACM CCS, Usenix Security, IEEE Security & Privacy, and ACM POPL. He acted as program chair for the International Conference on Principles of Security and Trust (POST 2016), for the IEEE European Symposium on Security & Privacy (Euro S&P 2018 & 2019), and for the IEEE Secure Development Conference (SecDev 2021 & 2022).
-    </div>
-    <div class="resumo">
-    - Resumo: Microarchitectural attacks, including high-profile attacks like cache attacks and Spectre attacks, are a threat to many of the important computation platforms, such as, for instance, cloud platforms or browsers. A key challenge in mitigating these attacks is achieving strong security guarantees without giving up on the performance benefits that advanced microarchitectures offer. One promising approach to achieve good performance/security trade-offs is to co-design hardware and software countermeasures in a systematic way. This talk will provide an introduction to microarchitectural attacks, and to transient execution attacks like Spectre in particular, and will discuss how to provide efficient end-to-end security guarantees through hardware/software co-design of countermeasures.
-    </div>
-        
-</div>
-<div class="palestra">
-    <div class="tema">Título: Random Number Generation and Extraction.</div>
-        <div class="pessoa">Yevgeniy Dodis</div>
-    <div class="foto">
-    <img class="sbseg-palestrante-pic" src="../images/photos/yevgeniy-dodis.jpg" alt="Yevgeniy Dodis">
-    </div>
-    <div class="biografia">Biografia: Yevgeniy Dodis is a Fellow of the IACR (International Association for Cryptologic Research), and a Professor of Computer Science at New York University. Dr. Dodis received his summa cum laude Bachelors degree in Mathematics and Computer Science from New York University in 1996, and his PhD degree in Computer Science from MIT in 2000.  Dr. Dodis was a post-doc at IBM T.J.Watson Research center in 2000, and joined New York University in 2001. Dr. Dodis' research is primarily in cryptography and network security. He worked in a variety of areas, including random number generation, secure messaging, leakage-resilient cryptography, cryptography under weak randomness, cryptography with biometrics and other noisy data, hash function and block cipher design, protocol composition and information-theoretic cryptography In addition to being an IACR Fellow, Dr. Dodis is the recipient of 2021 and 2019 IACR Test-of-Time Awards for his work on Fuzzy Extractors and Verifiable Random Functions, National Scien Foundation CAREER Award, Faculty Awards from Facebook, Google, IBM, Algorand and VMware, and Best Paper Award at 2005 Public Key Cryptography Conference. As an undergraduate student, he was also a winner of the US-Canada Putnam Mathematical Competition in 1995. Dr. Dodis has more than 150 scientific publications at various top venues, was the Program co-Chair for the 2022 CRYPTO and 2015 Theory of Cryptography Conference, the editor of Journal of Cryptology (2012-2019), has been on program committees of many international conferences (including FOCS, STOC, CRYPTO and Eurocrypt), and gave numerous invited lectures and courses at various venues.
-    </div>
-    <div class="resumo">
-    - Resumo: Generating random numbers is an essential task in cryptography. They are necessary not only for generating cryptographic keys, but are also needed in steps of cryptographic algorithms or protocols (e.g. initialization vectors for symmetric encryption, password generation, nonce generation). Indeed, the lack of insurance about the generated random numbers can cause serious damages in cryptographic protocols, and vulnerabilities that can be exploited by attackers. In this talk we revisit a surprisingly rich landscape of the area of random number generation, ranging from theoretical impossibility results to building real-world random-number generators (RNGs) for Windows, Apple and Linux. Some example topics include impossibility of basing cryptography on entropy alone, improved key derivation functions, seedless randomness extraction, design and analysis of "super-fast" entropy accumulation found in most modern RNGs, and post-compromise security of RNGs in light of "premature next" attacks.
-    </div>
-</div>
-<div class="palestra">
-    <div class="tema">Título: YOU ONLY SPEAK ONCE: Private Computing On Public Blockchains</div>
-    <div class="pessoa">Hugo Krawczyk</div>
-    <div class="foto">
-        <img class="sbseg-palestrante-pic" src="../images/photos/hugo-krawczyk.jpg" alt="Hugo Krawczyk">
-    </div>
-    <div class="biografia">Biografia: Hugo Krawczyk is a Principal Researcher at the Algorand Foundation. Prior to that he was an IBM Fellow and Distinguished Research Staff Member with the Cryptography Group at the IBM T.J. Watson Research Center. He is best known as a main cryptography designer for numerous Internet Security standards and for his contributions to theoretical and applied cryptography. Hugo has been recognized as a Fellow of the International Association of Cryptologic Research (IACR) and as an IBM Fellow, and awarded the 2015 RSA Conference Award for Excellence in the Field of Mathematics, the 2018 Levchin Prize for Contributions to Real-World Cryptography, the 2019 NDSS conference Test of Time Award, and multiple IBM awards including two Corporate Awards.
-    </div>
-    <div class="resumo">- Resumo: Blockchains are well-known for their consensus and integrity properties but secrecy is hard to enforce, let alone general secure privacy-preserving computation. In this talk I will introduce a notion called "You Only Speak Once" (YOSO) and show how it leads to scalable secure (multi-party) computation over blockchains. In the YOSO model of computation, a small subset of parties (physical machines) are periodically assigned ephemeral roles that require the machine to send a single message after which the machine erases all its state.  Thus, an attacker, that is limited on the number of machines it can control at any given time, cannot know which machines/roles to attack till they speak; but then it is too late to learn useful information from their compromise. This model can be realized in blockchains where it is unpredictable who the proposer of the next block is, such as in bitcoin, Algorand and others.
-    </div>
-</div>
-<div class="palestra">
-    <div class="tema"></div>
-    <div class="pessoa"></div>
-    <div class="foto">
-        <img class="sbseg-palestrante-pic" src="" alt="">
-    </div>
-    <div class="biografia"></div>
-</div>
-<div class="palestra">
-    <div class="tema"></div>
-    <div class="pessoa"></div>
-    <div class="foto">
-        <img class="sbseg-palestrante-pic" src="" alt="">
-    </div>
-    <div class="biografia"></div>
-</div>
-<div class="palestra">
-    <div class="tema"></div>
-    <div class="pessoa"></div>
-    <div class="foto">
-        <img class="sbseg-palestrante-pic" src="" alt="">
-    </div>
-    <div class="biografia"></div>
-</div>
-<div class="palestra">
-    <div class="tema"></div>
-    <div class="pessoa"></div>
-    <div class="foto">
-        <img class="sbseg-palestrante-pic" src="" alt="">
-    </div>
-    <div class="biografia"></div>
-</div>
+{% endfor %}
