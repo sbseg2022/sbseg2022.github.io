@@ -12,7 +12,7 @@ function loadSearchData() {
         const sbsegSearchData = JSON.parse(this.responseText);
         addListeners("search-box", sbsegSearchData.posts);
     }
-    xhttp.open("GET", "search.json");
+    xhttp.open("GET", "/" + document.documentElement.lang + "/search.json");
     xhttp.send();
 }
 

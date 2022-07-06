@@ -7,11 +7,10 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
         <h6>{{ page.subheading }}</h6>
         <hr>
-        <span>{{ page.date | date: site.data.translations.date-format[page.lang] }}</span>
+        <span>{{ site.data.translations.on-date[page.lang] }} {{ page.date | date: site.data.translations.date-format[page.lang] }}</span>
     </header>
     <hr>
     <div class="post-content">
         {{ content }}
     </div>
-    <br>
 </article>

@@ -1,6 +1,14 @@
 latest-news:
-  pt-br: "Últimas notícias"
-  en: "Latest news"
+  pt-br:
+    name: "Últimas notícias"
+    link: "busca-noticias.html"
+  en:
+    name: "Latest news"
+    link: "en/news-search.html"
+
+on-date:
+  pt-br: "Em"
+  en: "On"
 
 short-date-format:
   pt-br: "%d/%m"
