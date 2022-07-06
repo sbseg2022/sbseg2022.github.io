@@ -9,19 +9,7 @@ title: Supporters
 </p>
 <hr>
 <h3>Our Supporters</h3>
-<div class="container">
-    <div class="col-md-6 mt-4 text-center">
-        <div class="row-cols-md-3">
-            <div class="row-cols-mt-5">
-                <div class="row">
-                    <div class="col md-6 mt-4">
-                        <h5 class="pb-3">Silver</h5>
-                        <a href="https://ripple.com/" target="_blank">
-                            <img src="../images/Ripple_logo.png" width="165px;" alt="Ripple Crypto">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="row mt-5 gy-5 text-center">
+    <div class="col-12 diamond-supporters">{% include supporters.html supporters="xlabs" level="diamond" %}</div>
+    <div class="col-12 silver-supporters">{% include supporters.html supporters="ripple" level="silver" %}</div>
 </div>

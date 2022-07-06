@@ -184,6 +184,18 @@ h5 {
     float: left;
 }
 
+.palestra .sbseg-palestrante-pic {
+    margin: 0 20px 20px 0;
+    border-radius: 20px;
+    width: 232px;
+    height: 328px;
+}
+
+.fonte-grande {
+    font-size: 27px;
+    color: #004E7A;
+}
+
 .sbseg-pic {
     width: 160px;
     height: 120px;
@@ -380,9 +392,21 @@ h5 {
 .gy-5 {
     row-gap: 3rem;
 }
-.sponsor {
-    display: flex;
-    justify-content: center;
+
+.silver-supporters img {
+    width: 165px;
+}
+
+.silver-supporters {
+    font-size: 1rem;
+}
+
+.diamond-supporters img {
+    width: 215px;
+}
+
+.diamond-supporters {
+    font-size: 1.3rem;
 }
 
 .table .thead-sbseg th {
