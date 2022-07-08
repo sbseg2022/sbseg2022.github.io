@@ -360,7 +360,7 @@ p {
 
 .silver-supporters img {
     max-width: 161px;
-    max-height: 100px;
+    max-height: 50px;
 }
 
 .silver-supporters > h4 {
@@ -369,7 +369,7 @@ p {
 
 .diamond-supporters img {
     max-width: 215px;
-    max-height: 133px;
+    max-height: 107px;
 }
 
 .diamond-supporters > h4 {
