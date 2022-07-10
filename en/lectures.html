@@ -1,0 +1,24 @@
+---
+layout: page
+title: Lectures
+---
+{% for lecture in site.data.lecture.lectures %}
+    <div class="palestra">
+        <div class="clearfix">
+            <div class="foto">
+                <img class="sbseg-palestrante-pic" src="{{ lecture.speaker.pic }}" alt="{{ lecture.speaker.name }}">
+            </div>
+            <h2>{{ lecture.speaker.name }} ({{ lecture.speaker.institution }})</h2>
+            <div class="fonte-grande"><strong>Title: </strong> {{ lecture.title }}
+            </div>
+            <div>
+                <h4>Abstract:</h4>
+                <p>{{ lecture.abstract }}</p>
+            </div>
+        </div>
+        <div>
+            <h4 class="fonte-grande">Biography:</h4>
+            <p>{{ lecture.speaker.biography }}</p>
+        </div>
+    </div>
+{% endfor %}

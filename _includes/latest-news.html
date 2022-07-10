@@ -4,7 +4,7 @@
     <a href="{{ site.data.translations.latest-news[page.lang].link | relative_url }}"><h2>{{ site.data.translations.latest-news[page.lang].name }}</h2></a>
     <nav class="list-group posts">
         {% for post in posts limit: 6 %}
-        <a class="list-group-item border-0" href="{{ post.url }}">
+        <a class="list-group-item" href="{{ post.url }}">
             <div class="row h-100">
                 {% if post.thumbnail %}<div class="col-auto align-self-center"><img class="thumbnail" src="{{ post.thumbnail }}"></div>{% endif %}
                 <div class="col d-flex flex-column overflow-hidden">

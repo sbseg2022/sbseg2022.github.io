@@ -95,10 +95,14 @@ headers:
           title: "WGID"
           link: "chamada-wgid.html"
   - pt-br: "Programação"
+    en: "Schedule"
     dropdown-items:
       - pt-br:
           title: "Palestras"
           link: "/palestras.html"
+        en:
+          title: "Lectures"
+          link: "/en/lectures.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"

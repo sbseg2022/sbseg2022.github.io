@@ -16,6 +16,7 @@ gem "minima", "~> 2.5"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 gem "jekyll-sitemap", group: :jekyll_plugins
+gem "jekyll-redirect-from", group: :jekyll_plugins
 # end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

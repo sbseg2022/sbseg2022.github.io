@@ -39,6 +39,7 @@ google_analytics: "G-W13TWW07NR"
 #theme: minima
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
