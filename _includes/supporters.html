@@ -1,13 +1,14 @@
-{% assign supporters = include.supporters | split: ", " %}
-{% assign level = site.data.supporter[include.level] %}
-<h4>{{ level[page.lang] }}</h4>
-<div class="row align-items-center gy-5">
-    {% for s in supporters %}
-        {% assign supporter = site.data.supporter[s] %}
-        <div class="col text-center {{ supporter.level.class }}">
+{% assign supporters = site.data.supporter.supporters | where: "level", include.level %}
+{% assign level = site.data.supporter.levels[include.level] %}
+<div class="{{ level.class }}">
+    <h4>{{ level.name[page.lang] }}</h4>
+    <div class="row align-items-center gy-5">
+        {% for supporter in supporters %}
+        <div class="col text-center">
             <a href="{{ supporter.website }}" target="_blank">
                 <img src="{{ supporter.logo }}" alt="{{ supporter.name }}">
             </a>
         </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>

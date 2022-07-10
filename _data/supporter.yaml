@@ -1,21 +1,27 @@
-diamond: &diamond
-  class: "diamond-supporter"
-  en: "Diamond"
-  pt-br: "Diamante"
+levels:
+  diamond:
+    class: "diamond-supporters"
+    name:
+      en: "Diamond"
+      pt-br: "Diamante"
+  silver:
+    class: "silver-supporters"
+    name:
+      en: "Silver"
+      pt-br: "Prata"
 
-silver: &silver
-  class: "silver-supporter"
-  en: "Silver"
-  pt-br: "Prata"
+supporters:
+  - name: "Ripple Crypto"
+    logo: "/images/Ripple_logo.png"
+    website: "https://ripple.com/"
+    level: "silver"
 
-ripple:
-  name: "Ripple Crypto"
-  logo: "/images/Ripple_logo.png"
-  website: "https://ripple.com/"
-  level: *silver
+  - name: "XLabs Security"
+    logo: "/images/xlabs-logo.png"
+    website: "https://www.xlabs.com.br/"
+    level: "diamond"
 
-xlabs:
-  name: "XLabs Security"
-  logo: "/images/xlabs-logo.png"
-  website: "https://www.xlabs.com.br/"
-  level: *diamond
+  - name: "CAPES"
+    logo: "/images/capes-logo.png"
+    website: "https://capes.gov.br/"
+    level: "diamond"

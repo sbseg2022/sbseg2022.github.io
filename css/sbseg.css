@@ -394,19 +394,21 @@ h5 {
 }
 
 .silver-supporters img {
-    width: 165px;
+    max-width: 161px;
+    max-height: 50px;
 }
 
-.silver-supporters {
-    font-size: 1rem;
+.silver-supporters > h4 {
+    font-size: 1.2rem;
 }
 
 .diamond-supporters img {
-    width: 215px;
+    max-width: 215px;
+    max-height: 107px;
 }
 
-.diamond-supporters {
-    font-size: 1.3rem;
+.diamond-supporters > h4 {
+    font-size: 1.4rem;
 }
 
 .table .thead-sbseg th {
