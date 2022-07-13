@@ -6,6 +6,10 @@ latest-news:
     name: "Latest news"
     link: "en/news-search.html"
 
+
+supporter-banner:
+  pt-br: "/images/banner-xlabs.jpeg"
+
 on-date:
   pt-br: "Em"
   en: "On"

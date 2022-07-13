@@ -1,22 +1,18 @@
 {% assign posts = site.posts | where: "lang", page.lang %}
-{% if posts.size > 0 %}
-<div class="col-12 col-xl-4 mt-5 mt-xl-0">
-    <a href="{{ site.data.translations.latest-news[page.lang].link | relative_url }}"><h2>{{ site.data.translations.latest-news[page.lang].name }}</h2></a>
-    <nav class="list-group posts">
-        {% for post in posts limit: 6 %}
-        <a class="list-group-item" href="{{ post.url }}">
-            <div class="row h-100">
-                {% if post.thumbnail %}<div class="col-auto align-self-center"><img class="thumbnail" src="{{ post.thumbnail }}"></div>{% endif %}
-                <div class="col d-flex flex-column overflow-hidden">
-                    <div class="flex-grow-1">
-                        <h4 class="text-ellipsis">{{ post.title }}</h4>
-                        <div class="text-ellipsis subheading">{{ post.subheading }}</div>
-                    </div>
-                    <div class="text-right">{{ post.date | date: site.data.translations.short-date-format[page.lang] }}</div>
+<a href="{{ site.data.translations.latest-news[page.lang].link | relative_url }}"><h2>{{ site.data.translations.latest-news[page.lang].name }}</h2></a>
+<nav class="list-group posts">
+    {% for post in posts limit: 6 %}
+    <a class="list-group-item" href="{{ post.url }}">
+        <div class="row h-100">
+            {% if post.thumbnail %}<div class="col-auto align-self-center"><img class="thumbnail" src="{{ post.thumbnail }}"></div>{% endif %}
+            <div class="col d-flex flex-column overflow-hidden">
+                <div class="flex-grow-1">
+                    <h4 class="text-ellipsis">{{ post.title }}</h4>
+                    <div class="text-ellipsis subheading">{{ post.subheading }}</div>
                 </div>
+                <div class="text-right">{{ post.date | date: site.data.translations.short-date-format[page.lang] }}</div>
             </div>
-        </a>
-        {% endfor %}
-    </nav>
-</div>
-{% endif %}
+        </div>
+    </a>
+    {% endfor %}
+</nav>
