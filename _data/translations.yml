@@ -6,6 +6,9 @@ latest-news:
     name: "Latest news"
     link: "en/news-search.html"
 
+supporters:
+  pt-br: "Patrocinadores"
+  en: "Supporters"
 
 supporter-banner:
   pt-br: "/images/banner-xlabs.jpeg"

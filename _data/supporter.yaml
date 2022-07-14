@@ -9,6 +9,11 @@ levels:
     name:
       en: "Silver"
       pt-br: "Prata"
+  gold:
+    class: "gold-supporters"
+    name:
+      en: "Gold"
+      pt-br: "Ouro"
 
 supporters:
   - name: "Ripple Crypto"
@@ -25,3 +30,8 @@ supporters:
     logo: "/images/capes-logo.png"
     website: "https://capes.gov.br/"
     level: "diamond"
+
+  - name: "Avato"
+    logo: "/images/avato-logo.png"
+    website: "https://www.avato.com.br/"
+    level: "gold"

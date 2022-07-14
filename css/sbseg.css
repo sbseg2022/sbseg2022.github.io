@@ -402,12 +402,12 @@ h5 {
     font-size: 1.2rem;
 }
 
-.diamond-supporters img {
+.diamond-supporters img, .gold-supporters img {
     max-width: 215px;
     max-height: 107px;
 }
 
-.diamond-supporters > h4 {
+.diamond-supporters > h4, .gold-supporters > h4 {
     font-size: 1.4rem;
 }
 
