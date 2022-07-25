@@ -31,6 +31,9 @@ headers:
       - pt-br:
           title: "Local do Evento"
           link: "local-do-evento.html"
+      - pt-br:
+          title: "Grupos"
+          link: "grupos.html"
         en:
           title: "Venue"
           link: "en/venue.html"
