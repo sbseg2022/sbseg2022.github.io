@@ -35,3 +35,18 @@ supporters:
     logo: "/images/avato-logo.png"
     website: "https://www.avato.com.br/"
     level: "gold"
+
+  - name: "Tempest"
+    logo: "/images/New_Logo_TEMPEST_2.png"
+    website: "https://tempest.com.br/"
+    level: "silver"
+
+    - name: "NIC.br"
+    logo: "/images/logo-nicbr.png"
+    website: "https://nic.br/"
+    level: "diamond"
+
+  - name: "CGI.br"
+    logo: "/images/logo_CGIbr.png"
+    website: "https://cgi.bt/"
+    level: "diamond"
