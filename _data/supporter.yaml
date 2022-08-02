@@ -21,7 +21,15 @@ supporters:
     website: "https://ripple.com/"
     level: "silver"
 
+
   -name: "XLabs Security"
+  - name: "Tempest"
+    logo: "/images/New_Logo_TEMPEST_2.png"
+    website: "https://tempest.com.br/"
+    level: "silver"
+
+  - name: "XLabs Security"
+
     logo: "/images/xlabs-logo.png"
     website: "https://www.xlabs.com.br/"
     level: "diamond"
@@ -30,6 +38,7 @@ supporters:
     logo: "/images/capes-logo.png"
     website: "https://capes.gov.br/"
     level: "diamond"
+
 
   -name: "Avato"
     logo: "/images/avato-logo.png"
@@ -41,6 +50,12 @@ supporters:
     website: "https://tempest.com.br/"
     level: "silver"
 
+  - name: "CGI.br"
+    logo: "/images/logo_CGIbr.png"
+    website: "https://cgi.bt/"
+    level: "diamond"
+
+
   -name: "NIC.br"
     logo: "/images/logo-nicbr.png"
     website: "https://nic.br/"
@@ -50,3 +65,8 @@ supporters:
     logo: "/images/logo_CGIbr.png"
     website: "https://cgi.bt/"
     level: "diamond"
+
+  - name: "Avato"
+    logo: "/images/avato-logo.png"
+    website: "https://www.avato.com.br/"
+    level: "gold"
