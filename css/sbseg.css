@@ -416,3 +416,14 @@ h5 {
     background-color: #21376b;
     border-color: #1d2f58;
 }
+
+.viagem {
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.title-viagem{
+    /* padding-left: 5px; */
+    text-align: center;
+}

@@ -43,6 +43,9 @@ headers:
         en:
           title: "Previous Editions"
           link: "en/previous-editions.html"
+      - pt-br:
+          title: "Viagem"
+          link: "viagem.html"
   - pt-br: "Comitês"
     en: "Committees"
     dropdown-items:
@@ -103,6 +106,9 @@ headers:
       - pt-br:
           title: "Palestras"
           link: "/palestras.html"
+      - pt-br:
+          title: "Palestras Empresariais"
+          link: "/palestras-empresariais.html"
         en:
           title: "Lectures"
           link: "/en/lectures.html"

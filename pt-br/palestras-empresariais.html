@@ -1,0 +1,26 @@
+---
+permalink: /palestras-empresariais.html
+layout: page
+title: Palestras Empresariais
+---
+{% for lecture in site.data.business-lecture.lectures %}
+    <div class="palestra">
+        <div class="clearfix">
+            <div class="foto">
+                <img class="sbseg-palestrante-pic" src="{{ lecture.speaker.pic }}" alt="{{ lecture.speaker.name }}">
+            </div>
+            <h2>{{ lecture.speaker.name }} ({{ lecture.speaker.institution }})</h2>
+            <div class="fonte-grande"><strong>Título: </strong> {{ lecture.title }}
+            </div>
+            <div>
+                <h4>Resumo:</h4>
+                <p>{{ lecture.abstract }}</p>
+            </div>
+        </div>
+        <div>
+            <h4 class="fonte-grande">Biografia:</h4>
+            <p>{{ lecture.speaker.biography }}</p>
+            <p>Acompanhe {{ lecture.speaker.name }} em seu<a href= "https://www.linkedin.com/in/gersoncastro/" target="_blank"> LinkedIn.</a></p>
+        </div>
+    </div>
+{% endfor %}

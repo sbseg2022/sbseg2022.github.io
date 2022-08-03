@@ -1,72 +1,53 @@
+---
 levels:
   diamond:
-    class: "diamond-supporters"
+    class: diamond-supporters
     name:
-      en: "Diamond"
-      pt-br: "Diamante"
-  silver:
-    class: "silver-supporters"
-    name:
-      en: "Silver"
-      pt-br: "Prata"
+      en: Diamond
+      pt-br: Diamante
   gold:
-    class: "gold-supporters"
+    class: gold-supporters
     name:
-      en: "Gold"
-      pt-br: "Ouro"
-
+      en: Gold
+      pt-br: Ouro
+  silver:
+    class: silver-supporters
+    name:
+      en: Silver
+      pt-br: Prata
 supporters:
-  -name: "Ripple Crypto"
-    logo: "/images/Ripple_logo.png"
+  -
+    level: silver
+    logo: /images/Ripple_logo.png
+    name: "Ripple Crypto"
     website: "https://ripple.com/"
-    level: "silver"
-
-
-  -name: "XLabs Security"
-  - name: "Tempest"
-    logo: "/images/New_Logo_TEMPEST_2.png"
-    website: "https://tempest.com.br/"
-    level: "silver"
-
-  - name: "XLabs Security"
-
-    logo: "/images/xlabs-logo.png"
+  -
+    level: diamond
+    logo: /images/xlabs-logo.png
+    name: "XLabs Security"
     website: "https://www.xlabs.com.br/"
-    level: "diamond"
-
-  -name: "CAPES"
-    logo: "/images/capes-logo.png"
+  -
+    level: diamond
+    logo: /images/capes-logo.png
+    name: CAPES
     website: "https://capes.gov.br/"
-    level: "diamond"
-
-
-  -name: "Avato"
-    logo: "/images/avato-logo.png"
+  -
+    level: gold
+    logo: /images/avato-logo.png
+    name: Avato
     website: "https://www.avato.com.br/"
-    level: "gold"
-
-  -name: "Tempest"
-    logo: "/images/New_Logo_TEMPEST_2.png"
+  -
+    level: silver
+    logo: /images/New_Logo_TEMPEST_2.png
+    name: Tempest
     website: "https://tempest.com.br/"
-    level: "silver"
-
-  - name: "CGI.br"
-    logo: "/images/logo_CGIbr.png"
-    website: "https://cgi.bt/"
-    level: "diamond"
-
-
-  -name: "NIC.br"
-    logo: "/images/logo-nicbr.png"
+  -
+    level: diamond
+    logo: /images/logo_CGIbr.png
+    name: CGI.br
+    website: "https://cgi.br/"
+  -
+    level: diamond
+    logo: /images/logo-nicbr.png
+    name: NIC.br
     website: "https://nic.br/"
-    level: "diamond"
-
-  -name: "CGI.br"
-    logo: "/images/logo_CGIbr.png"
-    website: "https://cgi.bt/"
-    level: "diamond"
-
-  - name: "Avato"
-    logo: "/images/avato-logo.png"
-    website: "https://www.avato.com.br/"
-    level: "gold"
