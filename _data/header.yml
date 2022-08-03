@@ -109,6 +109,9 @@ headers:
       - pt-br:
           title: "Palestras Empresariais"
           link: "/palestras-empresariais.html"
+      - pt-br:
+          title: "Sessões Técnicas"
+          link: "/artigos.html"    
         en:
           title: "Lectures"
           link: "/en/lectures.html"
