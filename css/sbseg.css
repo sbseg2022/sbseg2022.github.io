@@ -427,3 +427,19 @@ h5 {
     /* padding-left: 5px; */
     text-align: center;
 }
+
+#articles p {
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+#articles ul, li {
+    list-style-type: none;
+}
+
+#articles h3, h4 {
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
