@@ -43,11 +43,6 @@ supporters:
     website: "https://tempest.com.br/"
   -
     level: diamond
-    logo: /images/logo_CGIbr.png
-    name: CGI.br
+    include-path: cgi-nic_vetor_cor.svg
+    name: NIC.br - CGI.br
     website: "https://cgi.br/"
-  -
-    level: diamond
-    logo: /images/logo-nicbr.png
-    name: NIC.br
-    website: "https://nic.br/"

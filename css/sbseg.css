@@ -395,7 +395,7 @@ h5 {
 
 .silver-supporters img {
     max-width: 161px;
-    max-height: 50px;
+    max-height: 80px;
 }
 
 .silver-supporters > h4 {
@@ -433,11 +433,11 @@ h5 {
     padding-bottom: 5px;
 }
 
-#articles ul, li {
+#articles ul, #articles li {
     list-style-type: none;
 }
 
-#articles h3, h4 {
+#articles h3, #articles h4 {
     font-weight: 600;
     margin-top: 20px;
     padding: 10px;
