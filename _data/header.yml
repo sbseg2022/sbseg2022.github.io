@@ -103,6 +103,9 @@ headers:
       - pt-br:
           title: "WFC"
           link: "chamada_wfc.html"
+      - pt-br:
+          title: "Artigos"
+          link: "artigos.html"
   - pt-br: "Programação"
     en: "Schedule"
     dropdown-items:
