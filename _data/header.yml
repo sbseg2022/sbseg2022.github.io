@@ -116,8 +116,8 @@ headers:
           title: "Sessões Técnicas"
           link: "/artigos.html"    
       - pt-br:
-          title: "Artigos"
-          link: "artigos.html"
+          title: "Artigos WTICG"
+          link: "/artigos-wticg.html"
         en:
           title: "Lectures"
           link: "/en/lectures.html"
