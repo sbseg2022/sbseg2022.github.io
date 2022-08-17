@@ -121,6 +121,9 @@ headers:
       - pt-br:
           title: "WFC"
           link: "chamada_wfc.html"
+      - pt-br:
+          title: "CTF"
+          link: "capture-the-flag.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
