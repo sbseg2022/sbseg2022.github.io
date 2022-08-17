@@ -100,9 +100,6 @@ headers:
       - pt-br:
           title: "WGID"
           link: "chamada-wgid.html"
-      - pt-br:
-          title: "WFC"
-          link: "chamada_wfc.html"
   - pt-br: "Programação"
     en: "Schedule"
     dropdown-items:
@@ -121,6 +118,9 @@ headers:
         en:
           title: "Lectures"
           link: "/en/lectures.html"
+      - pt-br:
+          title: "WFC"
+          link: "chamada_wfc.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
