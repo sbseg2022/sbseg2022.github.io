@@ -124,6 +124,10 @@ headers:
       - pt-br:
           title: "CTF"
           link: "capture-the-flag.html"
+      - pt-br:
+          title: "Tutoriais"
+          link: "/tutoriais.html"
+          
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
