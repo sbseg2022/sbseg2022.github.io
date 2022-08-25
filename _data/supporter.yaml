@@ -15,6 +15,11 @@ levels:
     name:
       en: Silver
       pt-br: Prata
+  partner:
+    class: partner-supporters
+    name:
+      en: Partners
+      pt-br: Parceiros
 supporters:
   -
     level: silver
@@ -46,3 +51,23 @@ supporters:
     include-path: cgi-nic_vetor_cor.svg
     name: NIC.br - CGI.br
     website: "https://cgi.br/"
+  -
+    level: partner
+    logo: /images/logo-softaliza.png
+    name: Softaliza
+    website: "https://softaliza.com.br/"
+  -
+    level: partner
+    logo: /images/logo-voitto.jpg
+    name: Voitto
+    website: "https://www.voitto.com.br/"
+  -
+    level: partner
+    logo: /images/rnp.png
+    name: RNP
+    website: "https://www.rnp.br/"
+  -
+    level: partner
+    logo: /images/CAIS_Logomarca.png
+    name: CAIS
+    website: "https://www.rnp.br/sistema-rnp/cais"
