@@ -127,6 +127,9 @@ headers:
       - pt-br:
           title: "Tutoriais"
           link: "/tutoriais.html"
+      - pt-br:
+          title: "Programação Geral"
+          link: "/programacao-geral.html"
           
   - pt-br:
       title: "Patrocinadores"

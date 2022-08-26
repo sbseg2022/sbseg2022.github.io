@@ -443,3 +443,21 @@ h5 {
     padding: 10px;
     text-align: center;
 }
+
+/*bordas de todas class tg*/
+.tg  {border-collapse:collapse;border-spacing:0;table-layout:auto;}
+/*bordas e estilo de fontes de todas celulas da tabela*/
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+/*dias da semana*/
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-41z5{font-weight:bold;background-color:#ffcb2f;color:#ffffff;border-color:#cd9934;text-align:center;vertical-align:top}
+/*coffe break*/
+.tg .tg-zlqz{font-weight:bold;background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+/*info cursos e atividades*/
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+/*area de horarios*/
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+/*area credenciamento*/
+.tg .tg-gdc4{background-color:#96fffb;border-color:inherit;text-align:center;vertical-align:top}
+/*area almoço*/
+.tg .tg-ycyt{font-weight:bold;background-color:#67fd9a;border-color:inherit;text-align:center;vertical-align:top}
