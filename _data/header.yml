@@ -104,6 +104,9 @@ headers:
     en: "Schedule"
     dropdown-items:
       - pt-br:
+          title: "Programação Geral"
+          link: "/programacao-geral.html"
+      - pt-br:
           title: "Palestras"
           link: "/palestras.html"
       - pt-br:
@@ -127,10 +130,6 @@ headers:
       - pt-br:
           title: "Tutoriais"
           link: "/tutoriais.html"
-      - pt-br:
-          title: "Programação Geral"
-          link: "/programacao-geral.html"
-          
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
