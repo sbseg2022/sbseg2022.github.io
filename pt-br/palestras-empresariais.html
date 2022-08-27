@@ -20,7 +20,7 @@ title: Palestras Empresariais
         <div>
             <h4 class="fonte-grande">Biografia:</h4>
             <p>{{ lecture.speaker.biography }}</p>
-            <p>Acompanhe {{ lecture.speaker.name }} em seu<a href= "https://www.linkedin.com/in/gersoncastro/" target="_blank"> LinkedIn.</a></p>
+            <p>Acompanhe {{ lecture.speaker.name }} em seu<a href= "{{ lecture.speaker.social }}" target="_blank"> LinkedIn.</a></p>
         </div>
     </div>
 {% endfor %}
