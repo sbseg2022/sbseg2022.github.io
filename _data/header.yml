@@ -116,6 +116,9 @@ headers:
           title: "Sessões Técnicas"
           link: "/artigos.html"    
       - pt-br:
+          title: "Minicursos"
+          link: "/minicursos-aprovados.html"
+      - pt-br:
           title: "Artigos WTICG"
           link: "/artigos-wticg.html"
         en:
