@@ -15,6 +15,11 @@ levels:
     name:
       en: Silver
       pt-br: Prata
+  bronze:
+    class: bronze-supporters
+    name:
+      en: Bronze
+      pt-br: Bronze
   partner:
     class: partner-supporters
     name:
@@ -42,8 +47,8 @@ supporters:
     name: Avato
     website: "https://www.avato.com.br/"
   -
-    level: silver
-    logo: /images/New_Logo_TEMPEST_2 1.png
+    level: gold
+    logo: /images/logo-tempest.png
     name: Tempest
     website: "https://tempest.com.br/"
   -
@@ -71,3 +76,8 @@ supporters:
     logo: /images/CAIS_Logomarca.png
     name: CAIS
     website: "https://www.rnp.br/sistema-rnp/cais"
+  -
+    level: bronze
+    logo: /images/logo_ibptec.png
+    name: Faculdade IBPTech
+    website: "https://ibptech.edu.br"

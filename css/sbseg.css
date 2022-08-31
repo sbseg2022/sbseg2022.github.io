@@ -393,12 +393,12 @@ h5 {
     row-gap: 3rem;
 }
 
-.silver-supporters img, .partner-supporters img {
+.silver-supporters img, .partner-supporters img, .bronze-supporters img {
     max-width: 161px;
     max-height: 80px;
 }
 
-.silver-supporters > h4 {
+.silver-supporters > h4, .bronze-supporters > h4 {
     font-size: 1.2rem;
 }
 
