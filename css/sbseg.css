@@ -444,6 +444,10 @@ h5 {
     text-align: center;
 }
 
+.post-content {
+    overflow-x: auto;
+}
+
 /*bordas de todas class tg*/
 .tg  {border-collapse:collapse;border-spacing:0;table-layout:auto;}
 /*bordas e estilo de fontes de todas celulas da tabela*/
