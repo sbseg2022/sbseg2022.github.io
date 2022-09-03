@@ -42,6 +42,11 @@ supporters:
     name: CAPES
     website: "https://capes.gov.br/"
   -
+    level: diamond
+    logo: /images/logo-cnpq.png
+    name: CNPq
+    website: "https://www.cnpq.br"
+  -
     level: gold
     logo: /images/avato-logo.png
     name: Avato

@@ -2,15 +2,15 @@
 {% assign level = site.data.supporter.levels[include.level] %}
 <div class="{{ level.class }}">
     <h4>{{ level.name[page.lang] }}</h4>
-    <div class="row align-items-center gy-5">
+    <div class="row align-items-center justify-content-around gy-5 gx">
         {% for supporter in supporters %}
             {% if supporter.include-path %}
-                <div class="col text-center">
+                <div class="col-auto text-center">
                     {% comment %}Isso é uma gambiarra absurda, buscar outra maneira de exibir os ícones{% endcomment %}
                     {% include {{supporter.include-path}} %}
                 </div>
             {% else %}
-                <div class="col text-center">
+                <div class="col-auto text-center">
                     <a href="{{ supporter.website }}" target="_blank">
                         <img src="{{ supporter.logo }}" alt="{{ supporter.name }}">
                     </a>
