@@ -1,0 +1,273 @@
+technical-sessions:
+  - number: 1
+    title: Criptografia e Criptoanálise I
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 8:30-10:00
+    articles:
+      - title: Generator sets for the selection of key differences in the Biclique Attack
+        modality: Remoto
+        authors:
+          - Gabriel de Carvalho (Universidade Federal Fluminense)
+          - Luis Kowada (Universidade Federal Fluminense)
+      - title: Implementação em Software da Cifra LowMC
+        modality: Remoto
+        authors:
+          - Roberto Cabral (Universidade Federal do Ceará)
+          - Julio Hernandez (UNICAMP)
+      - title: Evaluation of modular multiplication techniques for Supersingular Isogeny Schemes on ARMv8 cores.
+        modality: Presencial
+        authors:
+          - Vitor Satoru Matsumine (University of Campinas)
+          - Félix Rodrigues (University of Campinas)
+          - Décio Gazzoni Filho (University of Campinas)
+          - Caio Teixeira (University of Campinas)
+          - Julio Hernandez (UNICAMP), Ricardo Dahab (University of Campinas)
+  - number: 2
+    title: Blockchain e Criptomoeda
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 8:30-10:00
+    articles:
+      - title: Blockchain aplicado à rastreabilidade da cadeia produtiva do cacau da Amazônia
+        modality: Remoto
+        authors:
+          - Rodrigo Augusto Girani Tejos (Universidade de são paulo)
+          - Tereza Carvalho (Universidade de São Paulo)
+          - Marcos Simplicio Jr (Escola Politécnica - USP)
+          - Bruno Justen (Instituto Amazônia 4.0)
+          - Ismael Nobre (Instituto Amazônia 4.0)
+      - title: Decentralized Identity Management for Smart Cities Based on Blockchain Technology
+        modality: Remoto
+        authors:
+          - André Luiz Cardoso (Federal University of Maranhão)
+          - Bruno Rotondaro (UNIFESP)
+          - Luiz Penha (Federal University of Maranhão)
+          - Arlindo da Conceição (ICT-UNIFESP)
+          - Markus Endler (PUC-Rio)
+          - Francisco Jose Silva (UFMA)
+      - title: Análise da Evolução Topológica da Rede Lightning de Canais de Pagamento
+        modality: Presencial
+        authors:
+          - Gustavo Camilo (Universidade Federal do Rio de Janeiro)
+          - Gabriel Rebello (Universidade Federal do Rio de Janeiro)
+          - Lucas Airam Souza (UFRJ)
+          - Maria Potop-Butucaru (Sorbonne Université)
+          - Marcelo Dias de Amorim (LIP6/CNRS - Sorbonne Université)
+          - Miguel Elias Mitre Campista (Universidade Federal do Rio de Janeiro)
+          - Luis Henrique Costa (Universidade Federal do Rio de Janeiro)
+  - number: 3
+    title: Segurança em IoT
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 13:30-15:00
+    articles:
+      - title: A New Defensive Technique Against Sleep Deprivation Attacks Driven by Battery Usage
+        modality: Presencial
+        authors:
+          - Jean Fobe (University of São Paulo, Institute of Mathematics and Statistics)
+          - Michele Nogueira (Federal University of Minas Gerais)
+          - Daniel Batista (IME - USP)
+      - title: Avaliação experimental de uma camada de segurança implementada em dispositivo vestível cardíaco para Internet das Coisas Médicas.
+        modality: Remoto
+        authors:
+          - Bianca de Espindola Manoel (Federal University of Santa Catarina)
+          - Vinicius Zanon (UFSC)
+          - Eliel Marcos Romancini (Universidade Federal de Santa Catarina)
+          - Jim Lau (UFSC)
+          - Fabricio Ourique (UFSC)
+          - Analucia Morales (UFSC)
+      - title: "RSSignal: um Arcabouço para Evolução de Técnicas de Geração de Chaves Baseadas em RSSI"
+        modality: Remoto
+        authors:
+          - Leonardo Oliveira (Universidade Federal de Juiz de Fora)
+          - Luciano Jerez Chaves (Universidade Federal de Juiz de Fora)
+          - Edelberto Silva (Universidade Federal de Juiz de Fora)
+
+  - number: 4
+    title: Detecção de Intrusão e Ataques
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 13:30-15:00
+    articles:
+      - title: Detecção incremental de comportamento malicioso em VANETs
+        modality: Presencial
+        authors:
+          - Fernando Dutra (Instituto Tecnológico de Aeronáutica)
+          - Kenniston Bonfim (Instituto Tecnológico de Aeronáutica - ITA)
+          - Carlos Eduardo Travagini Siqueira (ITA)
+          - Rodolfo Meneguette (Universidade de São Paulo)
+          - Aldri dos Santos (Universidade Federal de Minas Gerais)
+          - Lourenco Pereira Jr (Instituto Tecnológico de Aeronáutica - ITA)
+      - title: "BG-IDPS: Detecção e Prevenção de Intrusões em Tempo Real em Switches eBPF com o Filtro de Pacotes Berkeley e a Metaheurística GRASP-FS"
+        modality: Presencial
+        authors:
+          - Vagner Quincozes (Universidade Federal do Pampa)
+          - Diego Carvalho (Universidade Federal de Santa Maria)
+          - Silvio Quincozes (Universidade Federal de Uberlândia)
+          - Juliano Kazienko (Universidade Federal de Santa Maria)
+          - Carlos Raniery Paula dos Santos (UFSM)
+      - title: Ataques Automatizados de Engenharia Social com o uso de Bots em Redes Sociais Profissionais
+        modality: Remoto
+        authors:
+          - Maurício Ariza (UFRGS)
+          - Antonio Azambuja (UFRGS)
+          - Jeferson Campos Nobre (UFRGS)
+          - Lisandro Zambenedetti Granville (UFRGS)
+
+  - number: 5
+    title: Criptografia e Criptoanálise II
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 13:30-15:00
+    articles:
+      - title: "Identidade e Autenticação de Serviços através de Ambientes e Protocolos de Descoberta Heterogêneos: Uma Solução baseada em Self-Certifying Names"
+        modality: Remoto
+        authors:
+          - Paulo Leonardo Souza Brizolara (Universidade Federal do Rio Grande do Norte - UFRN)
+          - Leonardo Cunha de Miranda (Universidade Federal do Rio Grande do Norte - UFRN)
+      - title: Succinct Non-interactive Arguments of Knowledge from Supersingular Isogenies
+        modality: Remoto
+        authors:
+          - Paulo Barreto (University of Washington | Tacoma)
+          - Marcos Simplicio Jr (University of Sao Paulo)
+          - Gustavo Zanon (Universidade de Sao Paulo)
+      - title: Efficient Gaussian sampling for RLWE-based cryptography through a fast Fourier transform
+        modality: Presencial
+        authors: Marcio Barbado Junior (Universidade de Sao Paulo)
+
+  - number: 6
+    title: Segurança e Aprendizado de Máquina
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
+    time: 08:30-10:00
+    articles:
+      - title: Autenticação Contínua Usando Sensores Inerciais dos Smartphones e Aprendizagem Profunda
+        modality: Remoto
+        authors:
+          - Ismael Paz (Universidade Federal do Amazonas)
+          - Hendrio Luis Bragança (Universidade Federal do Amazonas)
+          - Eduardo Souto (Universidade Federal do Amazonas)
+      - title: Modelos de Atualização baseados em Aumento de Dados e Aprendizado por Transferência para Detecção de Intrusão em Redes
+        modality: Remoto
+        authors:
+          - Pedro Horchulhack (PUCPR)
+          - Eduardo Viegas (Pontifícia Universidade Católica do Paraná, PUC-PR)
+          - Altair Santin (Pontifícia Universidade Católica do Paraná (PUCPR))
+          - Jhonatan Geremias (PUC-PR)
+      - title: Avaliação da capacidade de generalização de IDS stateful utilizando aprendizado de máquina
+        modality: Presencial
+        authors:
+          - Marcelo Domingues (Instituto Tecnológico de Aeronáutica)
+          - Gustavo de Carvalho Bertoli (Instituto Tecnológico de Aeronáutica - ITA)
+          - Leonardo Melo (Aeronautics Institute of Technology)
+          - Osamu Saotome (Instituto Tecnológico de Aeronáutica (ITA))
+          - Aldri dos Santos (Universidade Federal de Minas Gerais)
+          - Lourenco Pereira Jr (Instituto Tecnológico de Aeronáutica - ITA)
+
+  - number: 7
+    title: Votação Eletrônica e LGPD
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
+    time: 08:30-10:00
+    articles:
+      - title: "libharpia: a New Cryptographic Library for Brazilian Elections"
+        modality: Presencial
+        authors: Iago Silva (University of Brasilia)
+      - title: Pequenos Passos em Direção a um Sistema Prático de Registro de Votantes
+        modality: Remoto
+        authors:
+          - Alberto Sobrinho (Universidade Federal do Pará)
+          - Roberto Samarone Araujo (Universidade Federal do Pará)
+          - Juliana Sinai (UFPA)
+          - Matheus Castro (UFPA)
+          - Jacques Traore (Orange Labs)
+      - title: Segurança em Banco de Dados para Adequação a LGPD
+        modality: Remoto
+        authors: Kamilla Doria da Silveira (Universidade Tiradentes)
+
+  - number: 8
+    title: Detecção de Malware em Smart Phones
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
+    time: 13:30-15:00
+    articles:
+      - title: Uma Análise de Métodos de Seleção de Características aplicados à Detecção de Malwares Android
+        modality: Remoto
+        authors:
+          - Taina Soares (Universidade Federal do Pampa)
+          - Diego Kreutz (Universidade Federal do Pampa (UNIPAMPA))
+          - Estevão Costa (UFAM)
+          - Vanderson Rocha (Universidade Federal do Amazonas)
+          - Joner Mello (UFAM)
+          - Luiza Paula Leão (Universidade Federal do Amazonas)
+          - Gustavo Rodrigues (Universidade Federal do Pampa)
+          - Eduardo Feitosa (Universidade Federal do Amazonas)
+      - title: Avaliação de Ferramentas de AutoML em Datasets de Detecção de Malwares Android
+        modality: Remoto
+        authors:
+          - Guilherme Siqueira (UNIPAMPA)
+          - Diego Kreutz (Universidade Federal do Pampa (UNIPAMPA))
+          - Estevão Costa (UFAM)
+          - Joner Mello (UFAM)
+          - Rodrigo Mansilha (Federal University of Pampa)
+          - Jonas Pontes (Universidade Federal do Amazonas)
+          - Charles Miers (Universidade do Estado de Santa Catarina)
+          - Eduardo Feitosa (Universidade Federal do Amazonas)
+      - title: Explorando Mineração de Regras de Associação Para Detecção de Malwares em Dispositivos Android
+        modality: Remoto
+        authors:
+          - Vanderson Rocha (Universidade Federal do Amazonas)
+          - Jonas Pontes (Universidade Federal do Amazonas)
+          - Eduardo Feitosa (Universidade Federal do Amazonas)
+          - Diego Kreutz (Universidade Federal do Pampa (UNIPAMPA))
+
+  - number: 9
+    title: Análise, Modelagem e Simulação de Segurança
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
+    time: 13:30-15:00
+    articles:
+      - title: A Multi-criteria Approach to Improve the Cyber Security Visibility Through Breach Attack Simulations
+        modality: Presencial
+        authors:
+          - Antonio Jose Horta Neto (Instituto Militar de Engenharia)
+          - Raimir Holanda (University of Fortaleza)
+          - Renato Marinho (Morphus Labs)
+      - title: "Six Characters in Search of a Security Problem: Pirandellian Masks for Security Ceremonies"
+        modality: Presencial
+        authors:
+          - Taciane Martimiano (Universidade Federal de Santa Catarina)
+          - Jean Martina (Universidade Federal de Santa Catarina)
+      - title: Um Estudo de Correlação de Ataques DRDoS com Fatores Externos Visando Dados de Honeypots
+        modality: Remoto
+        authors:
+          - Tiago Heinrich (UFPR)
+          - Newton Will (UTFPR)
+          - Rafael Obelheiro (UDESC)
+          - Carlos Maziero (UFPR)
+shorts:
+  - date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 10:00 e 15:00
+    articles:
+      - title: Evaluation of CRYSTALS-Kyber and Saber on the ARMv8 architecture
+        modality: Remoto
+        authors:
+          - Jheyne Ortiz (University of Campinas)
+          - Félix Rodrigues (University of Campinas)
+          - Décio Gazzoni Filho (University of Campinas)
+          - Caio Teixeira (University of Campinas)
+          - Julio Hernandez (UNICAMP)
+          - Ricardo Dahab (University of Campinas)
+      - title: The Importance of the Public Global Parameter On Ring-LWE problem-based Key Encapsulation Mechanisms
+        modality: Presencial
+        authors:
+          - Reynaldo Villena (Universidade de Sao Paulo)
+          - Routo Terada (University of São Paulo)
+
+  - date: QUARTA-FEIRA, 14 DE SETEMBRO
+    time: 10:00 e 15:00
+    articles:
+      - title: Detecção de Ataques de Injeção de Dados no Tráfego de Rede de Sistemas ROS
+        modality: Presencial
+        authors:
+          - Rodrigo Antunes (Universidade Federal do Rio Grande)
+          - Bruno L. Dalmazo (Federal University of Rio Grande)
+          - Paulo Lilles Drews Jr (Universidade Federal do Rio Grande)
+      - title: Uma Arquitetura Baseada em Blockchain para Auditoria de Conformidade com Regulamentos de Proteção de Dados
+        modality: Remoto
+        authors:
+          - Marcos Castro (Universidade Federal do Ceará)
+          - Marciel Barros Pereira (Universidade Federal do Ceará)
+          - Miguel Franklin de Castro (Universidade Federal do Ceará)

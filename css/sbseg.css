@@ -428,20 +428,8 @@ h5 {
     text-align: center;
 }
 
-#articles p {
-    justify-content: center;
-    padding-bottom: 5px;
-}
-
-#articles ul, #articles li {
+#articles li {
     list-style-type: none;
-}
-
-#articles h3, #articles h4 {
-    font-weight: 600;
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
 }
 
 .post-content {
