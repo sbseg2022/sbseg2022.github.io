@@ -131,8 +131,14 @@ headers:
           title: "CTF"
           link: "capture-the-flag.html"
       - pt-br:
+          title: "Evento social e jantar"
+          link: "evento-social.html"
+      - pt-br:
+          title: "Salão de ferramentas"
+          link: "salao-ferramentas.html"
+      - pt-br:
           title: "Tutoriais"
-          link: "/tutoriais.html"
+          link: "tutoriais.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
