@@ -2,127 +2,30 @@
 permalink: /programação-salao-ferramentas.html
 layout: page
 title: Programação do salão de ferramentas SBSEG 2022
---- 
-
-<h3><strong>Terça-feira, 13/09/2022, das 10:00h às 10:30h</strong></h3>
-
-<p><strong>APRESENTAÇÃO NA SALA VIRTUAL</strong></p>
-
-<p><strong>Event2Ledger: Container traceability using Docker Swarm and consortium Hyperledger blockchain</strong></p>
-<p>Marco Marques (USP)
-Charles Miers (UDESC)
-Marcos Simplicio Jr (Escola Politécnica - USP)</p>
-
-<p><strong>TLS 1.3 Handshake Analyzer</strong></p>
-<p>Alexandre Augusto Giron (UFSC e UTFPR)
-Ricardo Custódio (UFSC)
-Frederico Schardong (IFRS)</p>
-
-<p><strong>APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)</strong></p>
-
-<p><strong>Logs Transparentes: transparência e auditabilidade usando estruturas de dados verificáveis</strong></p>
-<p>Leonardo Kimura (USP)
-Miho M. Urashima (USP)
-Guilherme Fumagali (UFSCAR)
-Gustavo C. Bastos (USP)
-Yeda Regina Venturini (UFSCar)
-Marcos Simplicio Jr (Escola Politécnica - USP)</p>
-
-<h3><strong>Terça-feira, 13/09/2022, das 15:00h às 15:30h</strong></h3>
-
-<p><strong>APRESENTAÇÃO NA SALA VIRTUAL</strong></p>
-
-<p><strong>LabEAD AutoTest: Online Tests of Hardware Designs</strong></p>
-<p>Victor Hayashi (USP)
-Wilson Ruggiero (USP)
-Felipe Almeida (USP)</p>
-
-<p><strong>HashifyPass - Uma Ferramenta para Visualização de Hashes de Senhas</strong></p>
-<p>Henrique Carvalho (IME-USP)
-Jorge Ribeiro (USP)
-Daniel Batista (IME - USP)
-José Coelho (IME - USP)</p>
-
-
-<p><strong>FS3E: uma Ferramenta para Execução e Avaliação de Métodos de Seleção de Caracterı́sticas para Detecção de Malwares Android</strong></p>
-<p>Estevão Costa (UFAM)
-Diego Kreutz (UNIPAMPA)
-Vanderson Rocha (UFAM)
-Eduardo Feitosa (UFAM)</p>
-<p>APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)</p>
-<title>iplite: a lightweight packet filter for NuttX</title>
-<p>
-Eduardo Moraes (ITA)
-Rodrigo Teixeira (ITA)
-Lourenco Pereira Jr (ITA)</p>
-<h3><strong>Quarta-feira, 14/09/2022, das 10:00h às 10:30h</strong></h3>
-<p>APRESENTAÇÃO VIRTUAL</p>
-
-<p><strong>LST 2.0: Testbed Emulado Baseado em Contêineres para Redes SDN Seguras</strong></p>
-<p>Alexandre Kaihara (UnB)
-Marcelo Marotta (UnB)
-Lucas Bondan (RNP)
-João Gondim (Universidade de Brasília - UnB)
-Gabriel Rodrigues (UnB)
-Genaina Rodrigues (UnB)
-</p>
-
-
-<p><strong>AutoCAR: Automação e Reprodutibilidade de Testes de Métodos de Classificação Baseados em Regras de Associação</strong></p>
-<p>Vanderson Rocha (UFAM)
-Diego Kreutz (UNIPAMPA)
-Eduardo Feitosa (UFAM)</p>
-
-<p>APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)</p>
-
-<p><strong>FWNL: Um Sistema de Processamento de Linguagem Natural para Configuração de Múltiplos Firewalls</strong></p>
-<p>José Augusto dos Santos Goulart (UNIPAMPA)
-Washington Luiz Mamede Fagundes Junior (UNIPAMPA)
-Kayuã Paim (UNIPAMPA)
-Gabriel Machado Lunardi (UFRGS)
-Diego Kreutz (UNIPAMPA)
-Rodrigo Mansilha (UNIPAMPA)</p>
-
-
-<h3><strong>Quarta-feira, 14/09/2022, das 15:00h às 15:30h</strong></h3>
-<p>APRESENTAÇÃO NA SALA VIRTUAL</p>
-<p><strong>DroidAutoML: uma Ferramenta de AutoML para o Domı́nio de Detecção de Malwares Android</strong></p>
-<p>
-    Joner Assolin (UFAM)
-    Diego Kreutz (UNIPAMPA)
-    Rodrigo Mansilha (UNIPAMPA)
-    Charles Miers (UDESC)
-    Eduardo Feitosa (UFAM)</p>
-
-<p><strong>ADBuilder: uma Ferramenta de Construção de Datasets para Detecção de Malwares Android</strong></p>
-<p>
-Lucas Barcellos (UNIPAMPA)
-Diego Kreutz (UNIPAMPA)
-Vagner Quincozes (UNIPAMPA)
-Rodrigo Mansilha (UNIPAMPA)
-Charles Miers (UDESC)
-Joner Assolin (UFAM)
-Eduardo Feitosa (UFAM)</p>
-
-
-<p>APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)</p>
-
-<p><strong>ERENO-UI: Uma Ferramenta para a Geração de Conjuntos de Dados para a Detecção de Intrusão em Redes IEC-61850</strong></p>
-<p>Silvio Quincozes (UFU)
-    Vagner Quincozes (UNIPAMPA)
-    Celio Albuquerque (UFF)
-    Diego Passos (UFF)
-    Daniel Mossé (University of Pittsburgh - USA)
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
+---
+<div id="articles">
+    {% assign sf-by-date = site.data.articles.salao-de-ferramentas | group_by: "date" %}
+    {% for date-sf in sf-by-date %}
+        <div>
+            <h3>{{ date-sf.name }}</h3>
+            {% for sf in date-sf.items %}
+                <div class="row sbseg-bg p-3 text-white text-center rounded no-gutters mb-3">
+                    <div class="col-auto">{{ sf.time }}</div>
+                    <div class="col">{{ sf.title }}</div>
+                </div>
+                {% for article in sf.articles %}
+                    <div class="mb-3">
+                        <div><strong>{{ article.title }}</strong></div>
+                        <div>Autor(es):
+                            <ul>
+                                {% for author in article.authors %}
+                                    <li>{{ author }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

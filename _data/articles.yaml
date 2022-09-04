@@ -271,3 +271,128 @@ shorts:
           - Marcos Castro (Universidade Federal do Ceará)
           - Marciel Barros Pereira (Universidade Federal do Ceará)
           - Miguel Franklin de Castro (Universidade Federal do Ceará)
+
+salao-de-ferramentas:
+  - title: APRESENTAÇÃO NA SALA VIRTUAL
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 10:00-10:30
+    articles:
+      - title: "Event2Ledger: Container traceability using Docker Swarm and consortium Hyperledger blockchain"
+        authors:
+          - Marco Marques (USP)
+          - Charles Miers (UDESC)
+          - Marcos Simplicio Jr (Escola Politécnica - USP)
+      - title: TLS 1.3 Handshake Analyzer
+        authors:
+          - Alexandre Augusto Giron (UFSC e UTFPR)
+          - Ricardo Custódio (UFSC)
+          - Frederico Schardong (IFRS)
+
+  - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 10:00-10:30
+    articles:
+      - title: "Logs Transparentes: transparência e auditabilidade usando estruturas de dados verificáveis"
+        authors:
+          - Leonardo Kimura (USP)
+          - Miho M. Urashima (USP)
+          - Guilherme Fumagali (UFSCAR)
+          - Gustavo C. Bastos (USP)
+          - Yeda Regina Venturini (UFSCar)
+          - Marcos Simplicio Jr (Escola Politécnica - USP)
+
+  - title: APRESENTAÇÃO NA SALA VIRTUAL
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 15:00-15:30
+    articles:
+      - title: "LabEAD AutoTest: Online Tests of Hardware Designs"
+        authors:
+          - Victor Hayashi (USP)
+          - Wilson Ruggiero (USP)
+          - Felipe Almeida (USP)
+      - title: HashifyPass - Uma Ferramenta para Visualização de Hashes de Senhas
+        authors:
+          - Henrique Carvalho (IME-USP)
+          - Jorge Ribeiro (USP)
+          - Daniel Batista (IME - USP)
+          - José Coelho (IME - USP
+      - title: "FS3E: uma Ferramenta para Execução e Avaliação de Métodos de Seleção de Caracterı́sticas para Detecção de Malwares Android"
+        authors:
+          - Estevão Costa (UFAM)
+          - Diego Kreutz (UNIPAMPA)
+          - Vanderson Rocha (UFAM)
+          - Eduardo Feitosa (UFAM)
+
+  - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
+    date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: 15:00-15:30
+    articles:
+      - title: "iplite: a lightweight packet filter for NuttX"
+        authors:
+          - Eduardo Moraes (ITA)
+          - Rodrigo Teixeira (ITA)
+          - Lourenco Pereira Jr (ITA)
+
+  - title: APRESENTAÇÃO NA SALA VIRTUAL
+    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    time: 10:00-10:30
+    articles:
+      - title: "LST 2.0: Testbed Emulado Baseado em Contêineres para Redes SDN Seguras"
+        authors:
+          - Alexandre Kaihara (UnB)
+          - Marcelo Marotta (UnB)
+          - Lucas Bondan (RNP)
+          - João Gondim (Universidade de Brasília - UnB)
+          - Gabriel Rodrigues (UnB)
+          - Genaina Rodrigues (UnB)
+      - title: "AutoCAR: Automação e Reprodutibilidade de Testes de Métodos de Classificação Baseados em Regras de Associação"
+        authors:
+          - Vanderson Rocha (UFAM)
+          - Diego Kreutz (UNIPAMPA)
+          - Eduardo Feitosa (UFAM)
+
+  - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
+    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    time: 10:00-10:30
+    articles:
+      - title: "FWNL: Um Sistema de Processamento de Linguagem Natural para Configuração de Múltiplos Firewalls"
+        authors:
+          - José Augusto dos Santos Goulart (UNIPAMPA)
+          - Washington Luiz Mamede Fagundes Junior (UNIPAMPA)
+          - Kayuã Paim (UNIPAMPA)
+          - Gabriel Machado Lunardi (UFRGS)
+          - Diego Kreutz (UNIPAMPA)
+          - Rodrigo Mansilha (UNIPAMPA)
+
+  - title: APRESENTAÇÃO NA SALA VIRTUAL
+    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    time: 15:00-15:30
+    articles:
+      - title: "DroidAutoML: uma Ferramenta de AutoML para o Domı́nio de Detecção de Malwares Android"
+        authors:
+          - Joner Assolin (UFAM)
+          - Diego Kreutz (UNIPAMPA)
+          - Rodrigo Mansilha (UNIPAMPA)
+          - Charles Miers (UDESC)
+          - Eduardo Feitosa (UFAM)
+      - title: "ADBuilder: uma Ferramenta de Construção de Datasets para Detecção de Malwares Android"
+        authors:
+          - Lucas Barcellos (UNIPAMPA)
+          - Diego Kreutz (UNIPAMPA)
+          - Vagner Quincozes (UNIPAMPA)
+          - Rodrigo Mansilha (UNIPAMPA)
+          - Charles Miers (UDESC)
+          - Joner Assolin (UFAM)
+          - Eduardo Feitosa (UFAM)
+
+  - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
+    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    time: 15:00-15:30
+    articles:
+      - title: "ERENO-UI: Uma Ferramenta para a Geração de Conjuntos de Dados para a Detecção de Intrusão em Redes IEC-61850"
+        authors:
+          - Silvio Quincozes (UFU)
+          - Vagner Quincozes (UNIPAMPA)
+          - Celio Albuquerque (UFF)
+          - Diego Passos (UFF)
+          - Daniel Mossé (University of Pittsburgh - USA)
