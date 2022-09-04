@@ -119,7 +119,7 @@ headers:
           title: "Minicursos"
           link: "/minicursos-aprovados.html"
       - pt-br:
-          title: "Artigos WTICG"
+          title: "WTICG"
           link: "/artigos-wticg.html"
         en:
           title: "Lectures"
@@ -134,7 +134,7 @@ headers:
           title: "Evento social e jantar"
           link: "evento-social.html"
       - pt-br:
-          title: "Programação Detalhada Salão de ferramentas"
+          title: "Salão de ferramentas"
           link: "programação-salao-ferramentas.html"
       - pt-br:
           title: "Tutoriais"
