@@ -393,6 +393,10 @@ h5 {
     row-gap: 3rem;
 }
 
+.gy-30px {
+    row-gap: 30px;
+}
+
 .silver-supporters img, .partner-supporters img, .bronze-supporters img {
     max-width: 161px;
     max-height: 80px;
