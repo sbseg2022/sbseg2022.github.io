@@ -139,6 +139,9 @@ headers:
       - pt-br:
           title: "Tutoriais"
           link: "tutoriais.html"
+      - pt-br:
+          title: "apresentações CTDSeg"
+          link: "apresentacoes-CTDSeg.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
