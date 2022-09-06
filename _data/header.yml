@@ -142,6 +142,9 @@ headers:
       - pt-br:
           title: "apresentações CTDSeg"
           link: "apresentacoes-CTDSeg.html"
+      - pt-br:
+          title: "WGId"
+          link: "programacao-WGId.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
