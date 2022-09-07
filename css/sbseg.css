@@ -184,6 +184,15 @@ h5 {
     float: left;
 }
 
+.cover {
+    object-fit: cover;
+}
+
+.pic-md {
+    width: 180px;
+    height: 220px;
+}
+
 .palestra .sbseg-palestrante-pic {
     margin: 0 20px 20px 0;
     border-radius: 20px;

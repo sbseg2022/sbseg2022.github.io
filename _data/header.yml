@@ -140,11 +140,14 @@ headers:
           title: "Tutoriais"
           link: "tutoriais.html"
       - pt-br:
-          title: "apresentações CTDSeg"
+          title: "CTDSeg"
           link: "apresentacoes-CTDSeg.html"
       - pt-br:
           title: "WGId"
           link: "programacao-WGId.html"
+      - pt-br:
+          title: "Fórum de Segurança Corporativa"
+          link: "seguranca-corporativa.html"
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
