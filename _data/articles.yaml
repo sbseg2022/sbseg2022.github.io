@@ -1,3 +1,108 @@
+wticg:
+  - number: 1
+    title: Segurança de Aplicações 
+    date: SEGUNDA-FEIRA, 12 DE SETEMBRO
+    time: 8:30-10:00
+    articles:
+      - title: Análise de segurança em aplicações Web construídas a partir dos frameworks Django, Express e Flask
+        modality: Artigo Completo
+        authors:
+          - Rodrigo Brito (Universidade Federal do Piauí)
+          - Carlos André Batista de Carvalho (Universidade Federal do Piauí)
+      - title: Sandbox as a Service - automatizando a configuração do Cuckoo Sandbox e a geração de dados para análise de malware
+        modality: Artigo Completo
+        authors:
+          - uilherme Figueiredo (Universidade Federal de Uberlândia)
+          - Renan Cattelan(Universidade Federal de Uberlândia)
+          - Rodrigo Miani(Universidade Federal de Uberlândia)
+      - title: DevSecOps - integração da segurança contínua em pipelines DevOps um estudo de caso 
+        modality: Artigo Completo
+        authors:
+          - Rafael França (Instituto Federal Fluminense)
+          - Vinicius Barcelos da Silva (Instituto Federal Fluminense)
+
+- number: 2
+    title: Segurança em IoT e Redes de Computadores  
+    date: SEGUNDA-FEIRA, 12 DE SETEMBRO
+    time: 10:30-12:00
+    articles:
+      - title: Avaliação de requisitos de processamento e memória do algoritmo de criptografia pós-quântica SABER em plataforma ARM Cortex-M0+
+        modality: Artigo Completo
+        authors:
+          - George Gigilas Junior (Universidade Estadual de Campinas)
+          - Marco Aurelio Amaral Henriques (Universidade Estadual de Campinas) 
+      - title: Demonstração Experimental de Vulnerabilidades em Dispositivos Internet das Coisas
+        modality: (Artigo Curto - Remoto)
+        authors:
+            - Raphael L. C. Nascimento (Universidade Federal da Paraíba)
+            - Ryan M. S. Leal (Centro de Informática - Universidade Federal da Paraíba)
+            - Iguatemi E. Fonseca (Universidade Federal da Paraíba)
+      - title: EB-CyberDef- Um Ambiente Integrado de Defesa Cibernética para Apoio à Detecção e ao Combate de Comportamentos Maliciosos no Tráfego de Redes de Computadores
+        modality: Artigo Completo
+        authors:
+          - Gustavo Testoni (Instituto Militar de Engenharia)
+          - Marcos Paulo Lima Araujo Pereira (Instituto Militar de Engenharia)
+          - Sérgio Silva (Instituto Militar de Engenharia)
+          - Ronaldo Goldschmidt (Instituto Militar de Engenharia)
+          - Clayton Escouper das Chagas (Instituto Militar de Engenharia)
+
+- number: 3
+    title: Votação Eletrônica  
+    date: SEGUNDA-FEIRA, 12 DE SETEMBRO
+    time: 13:30-15:00
+    articles:
+      - title: Sistema de Votação Eletrônica baseado em Assinatura Cega e BigchainDB
+        modality: Artigo Completo
+        authors:
+          - Leonardo Pinto Guilherme (CEFET-RJ)
+          - Luis Silva (CEFET-RJ) 
+          - Nilson Lazarin (CEFET-RJ UnED Nova Friburgo)
+      - title: A Vote Tallying System Based on Computer Vision
+        modality: Artigo Curto
+        authors:
+            - Julio Rodrigues (Universidade Federal de São João del-Rei)
+            - Charles Figueredo de Barros (Universidade Federal de São João del-Rei)
+            - Paulo Victor Sousa (Universidade Federal de São João del-Rei)
+      - title: Utilização de Animações para Comparação de Hashes em Votação Eletrônica via Internet
+        modality: Artigo Curto
+        authors:
+          - Jessica Sato (Universidade de São Paulo) 
+          - Jorge Ribeiro (Universidade de São Paulo)
+          - Roberto Samarone Araujo (Universidade Federal do Pará)
+          - José Coelho (Universidade de São Paulo)
+          - Daniel Batista (Universidade de São Paulo)
+
+- number: 4
+    title: Anonimização e Privacidade e Segurança de Aplicações  
+    date: SEGUNDA-FEIRA, 12 DE SETEMBRO
+    time: 15:30-17:00
+    articles:
+      - title: Análise de viabilidade de implantação de sistema de autenticação híbrido baseado em Identidades Digitais Federadas e Identidades Digitais Descentralizadas
+        modality: Artigo Completo - Remoto
+        authors:
+          - Raquel Leite (Universidade Estadual de Campinas) 
+          - Marco Aurelio Amaral Henriques (Universidade Estadual de Campinas)
+      - title: Entendimento do Controle de TAGs nas Redes Sociais 
+        modality: Artigo Curto
+        authors:
+            - Natanael Pereira (Instituto Federal de Educação, Ciência e Tecnologia Goiano - Campus Ceres)
+            - Laura Alves (Instituto Federal Goiano)
+            - Regina Paiva Melo Marin (Instituto Federal de Educação, Ciência e Tecnologia Catarinense)
+      - title:  Solução integrada para análise e monitoramento de redes empresariais
+        modality: Artigo Curto - Remoto
+        authors:
+          - Mateus Soares (Universidade Federal do Pampa) 
+          - Marcelo Cordeiro (Universidade Federal do Pampa)
+          - Gabriel Haab (Microchip Technology)
+          - Erico Amaral (Universidade Federal do Pampa)
+      - title:  Uma proposta para avaliação de confiança em redes VANETs
+        modality: Artigo Curto
+        authors:
+          - Eduardo Pandini (Universidade Estadual de Santa Catarina)
+          - Fernando Matos (Universidade Federal da Paraíba)
+          - Aldri dos Santos (Universidade Federal de Minas Gerais)
+          - Adriano Fiorese (UDESC)
+
 technical-sessions:
   - number: 1
     title: Criptografia e Criptoanálise I
