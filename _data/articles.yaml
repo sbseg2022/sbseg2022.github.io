@@ -239,7 +239,7 @@ technical-sessions:
           - Carlos Maziero (UFPR)
 shorts:
   - date: TERÇA-FEIRA, 13 DE SETEMBRO
-    time: 10:00 e 15:00
+    time: "10:00"
     articles:
       - title: Evaluation of CRYSTALS-Kyber and Saber on the ARMv8 architecture
         modality: Remoto
@@ -250,6 +250,9 @@ shorts:
           - Caio Teixeira (University of Campinas)
           - Julio Hernandez (UNICAMP)
           - Ricardo Dahab (University of Campinas)
+  - date: TERÇA-FEIRA, 13 DE SETEMBRO
+    time: "15:00"
+    articles:
       - title: The Importance of the Public Global Parameter On Ring-LWE problem-based Key Encapsulation Mechanisms
         modality: Presencial
         authors:
@@ -257,7 +260,7 @@ shorts:
           - Routo Terada (University of São Paulo)
 
   - date: QUARTA-FEIRA, 14 DE SETEMBRO
-    time: 10:00 e 15:00
+    time: "10:00"
     articles:
       - title: Detecção de Ataques de Injeção de Dados no Tráfego de Rede de Sistemas ROS
         modality: Presencial
@@ -265,6 +268,9 @@ shorts:
           - Rodrigo Antunes (Universidade Federal do Rio Grande)
           - Bruno L. Dalmazo (Federal University of Rio Grande)
           - Paulo Lilles Drews Jr (Universidade Federal do Rio Grande)
+  - date: QUARTA-FEIRA, 14 DE SETEMBRO
+    time: "15:00"
+    articles:
       - title: Uma Arquitetura Baseada em Blockchain para Auditoria de Conformidade com Regulamentos de Proteção de Dados
         modality: Remoto
         authors:
