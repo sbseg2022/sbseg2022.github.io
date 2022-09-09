@@ -20,8 +20,8 @@ wticg:
         authors:
           - Rafael França (Instituto Federal Fluminense)
           - Vinicius Barcelos da Silva (Instituto Federal Fluminense)
-
-- number: 2
+          
+  - number: 2
     title: Segurança em IoT e Redes de Computadores  
     date: SEGUNDA-FEIRA, 12 DE SETEMBRO
     time: 10:30-12:00
@@ -46,7 +46,7 @@ wticg:
           - Ronaldo Goldschmidt (Instituto Militar de Engenharia)
           - Clayton Escouper das Chagas (Instituto Militar de Engenharia)
 
-- number: 3
+  - number: 3
     title: Votação Eletrônica  
     date: SEGUNDA-FEIRA, 12 DE SETEMBRO
     time: 13:30-15:00
@@ -72,7 +72,7 @@ wticg:
           - José Coelho (Universidade de São Paulo)
           - Daniel Batista (Universidade de São Paulo)
 
-- number: 4
+  - number: 4
     title: Anonimização e Privacidade e Segurança de Aplicações  
     date: SEGUNDA-FEIRA, 12 DE SETEMBRO
     time: 15:30-17:00
