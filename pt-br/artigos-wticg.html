@@ -4,6 +4,33 @@ layout: page
 title: Artigos Aceitos no WTICG 2022
 ---
 
+<h2 id="sessoes-tecnicas">Programação WTICG</h2>
+<hr>
+{% assign ts-by-date = site.data.articles.witcg | group_by: "date" %}
+    {% for date-ts in ts-by-date %}
+        <div>
+            <h3>{{ date-ts.name }}</h3>
+            {% for ts in date-ts.items %}
+                <div class="row sbseg-bg p-3 text-white text-center rounded no-gutters mb-3">
+                    <div class="col-auto">{{ ts.time }}</div>
+                    <div class="col">ST{{ ts.number }} - {{ ts.title }}</div>
+                </div>
+                {% for article in ts.articles %}
+                    <div class="mb-3">
+                        <div><strong>{{ article.title }}</strong> - ({{ article.modality }})</div>
+                        <div>Autor(es):
+                            <ul>
+                                {% for author in article.authors %}
+                                    <li>{{ author }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+
 <div id="articles">
     <p>Lista de artigos aceitos no WTICG 2022. Nesta página você pode conferir a Trilha de Artigos Completos (Full Papers) e a Trilha de Artigos Curtos (Short Papers).</p>
     <h4>Artigos Completos (Full Papers)</h4>
