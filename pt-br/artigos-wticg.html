@@ -7,7 +7,7 @@ title: Artigos Aceitos no WTICG 2022
 <div id="articles">
 <h2 id="sessoes-tecnicas">Programação WTICG</h2>
 <hr>
-{% assign ts-by-date = site.data.articles.witcg | group_by: "date" %}
+{% assign ts-by-date = site.data.articles.wticg | group_by: "date" %}
     {% for date-ts in ts-by-date %}
         <div>
             <h3>{{ date-ts.name }}</h3>
