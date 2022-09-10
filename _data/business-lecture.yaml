@@ -18,7 +18,7 @@ lectures:
   - speaker:
       name: "Robson Felthaus"
       institution: "Brasil TecPar e Ávato"
-      pic: ""
+      pic: "../images/photos/robson-avato.jpg"
       social: "https://www.linkedin.com/in/robson-felthaus-7b378241/"
       biography: "Robson Felthaus é Head de Infraestrutura de TI da Ávato (grupo Brasil TecPar), possui mais de 10 anos de experiência em ambientes de missão crítica de infraestrutura e Data Center."
     title: "ISO 27001 no Mercado em Consolidação"
