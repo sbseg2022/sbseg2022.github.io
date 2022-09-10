@@ -430,6 +430,23 @@ h5 {
     border-color: #1d2f58;
 }
 
+.table-sbseg th,
+.table-sbseg td {
+    border: 1px solid black;
+}
+
+.table-sbseg td[rowspan] {
+    vertical-align: middle;
+}
+
+.table-sbseg td[colspan] {
+    text-align: center;
+}
+
+.center-first-column th:first-of-type, .center-first-column td:first-of-type {
+    text-align: center;
+}
+
 .viagem {
     border: 1px solid;
     padding: 10px;
