@@ -148,6 +148,10 @@ headers:
       - pt-br:
           title: "Fórum de Segurança Corporativa"
           link: "seguranca-corporativa.html"
+      - pt-br:
+          title: "Painel ISOC"
+          link: "painel_isoc.html"
+          
   - pt-br:
       title: "Patrocinadores"
       link: "patrocinadores.html"
