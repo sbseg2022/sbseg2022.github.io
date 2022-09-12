@@ -4,7 +4,7 @@ layout: page
 title: Palestras
 ---
 {% for lecture in site.data.lecture.lectures %}
-    <div class="palestra">
+    <div class="palestra" id="lecture-{{ lecture.id }}">
         <div class="clearfix">
             <div class="foto">
                 <img class="sbseg-palestrante-pic" src="{{ lecture.speaker.pic }}" alt="{{ lecture.speaker.name }}">

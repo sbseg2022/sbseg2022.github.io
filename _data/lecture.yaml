@@ -17,6 +17,7 @@ lectures:
                   for the IEEE European Symposium on Security & Privacy (Euro S&P 2018 & 2019), and for the IEEE Secure
                   Development
                   Conference (SecDev 2021 & 2022)."
+    id: 1
     title: "Mitigating microarchitectural attacks by co-designing hardware and software countermeasures"
     abstract: "Microarchitectural attacks, including high-profile attacks like cache attacks and Spectre attacks,
             are a threat to many of the important computation platforms, such as, for instance, cloud platforms or
@@ -48,6 +49,7 @@ lectures:
         CRYPTO and 2015 Theory of Cryptography Conference, the editor of Journal of Cryptology (2012-2019), has been on
         program committees of many international conferences (including FOCS, STOC, CRYPTO and Eurocrypt), and gave
         numerous invited lectures and courses at various venues."
+    id: 2
     title: "Random Number Generation and Extraction"
     abstract: "Generating random numbers is an essential task in cryptography. They are necessary not only for
         generating cryptographic keys, but are also needed in steps of cryptographic algorithms or protocols (e.g.
@@ -72,6 +74,7 @@ lectures:
         Award for Excellence in the Field of Mathematics, the 2018 Levchin Prize for Contributions to Real-World
         Cryptography, the 2019 NDSS conference Test of Time Award, and multiple IBM awards including two Corporate
         Awards."
+    id: 3
     title: "YOU ONLY SPEAK ONCE: Private Computing On Public Blockchains"
     abstract: "Blockchains are well-known for their consensus and integrity properties but secrecy
         is hard to enforce, let alone general secure privacy-preserving computation. In this talk I will introduce a
@@ -89,4 +92,5 @@ lectures:
       pic: "/images/photos/byron-cook.jpeg"
       biography: "Dr. Byron Cook, FREng is Professor of Computer Science at University College London (UCL). Byron is also Vice President and Distinguished Scientist at Amazon. Byron's interests include computer/network security, program analysis/verification, programming languages, theorem proving, logic, hardware design, operating systems, and biological systems."
     title: "The Business of Proof"
+    id: 4
     abstract: "With only a few niche applications, the software industry had not previously figured out how to make deep use of formal mechanical reasoning based on mathematical logic. At Amazon we hab ve recently seen tremendous adoption of the approach by product groups, with a variety of customer-facing launches that use automated reasoning, and numerous internal proof projects.  This describes those projects, and captures aspects of why Amazon has been successful where others have been less so.  The talk also describes challenges that we face to scale the approach to the next level."
