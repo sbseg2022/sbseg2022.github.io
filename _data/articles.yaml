@@ -456,11 +456,16 @@ salao-de-ferramentas:
           - João Gondim (Universidade de Brasília - UnB)
           - Gabriel Rodrigues (UnB)
           - Genaina Rodrigues (UnB)
-      - title: "AutoCAR: Automação e Reprodutibilidade de Testes de Métodos de Classificação Baseados em Regras de Associação"
+      - title: "ADBuilder: uma Ferramenta de Construção de Datasets para Detecção de Malwares Android"
         authors:
-          - Vanderson Rocha (UFAM)
+          - Lucas Barcellos (UNIPAMPA)
           - Diego Kreutz (UNIPAMPA)
+          - Vagner Quincozes (UNIPAMPA)
+          - Rodrigo Mansilha (UNIPAMPA)
+          - Charles Miers (UDESC)
+          - Joner Assolin (UFAM)
           - Eduardo Feitosa (UFAM)
+      
 
   - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
     date: QUARTA-FEIRA, 14 DE SETEMBRO
@@ -485,15 +490,11 @@ salao-de-ferramentas:
           - Diego Kreutz (UNIPAMPA)
           - Rodrigo Mansilha (UNIPAMPA)
           - Charles Miers (UDESC)
-          - Eduardo Feitosa (UFAM)
-      - title: "ADBuilder: uma Ferramenta de Construção de Datasets para Detecção de Malwares Android"
+          - Eduardo Feitosa (UFAM
+      - title: "AutoCAR: Automação e Reprodutibilidade de Testes de Métodos de Classificação Baseados em Regras de Associação"
         authors:
-          - Lucas Barcellos (UNIPAMPA)
+          - Vanderson Rocha (UFAM)
           - Diego Kreutz (UNIPAMPA)
-          - Vagner Quincozes (UNIPAMPA)
-          - Rodrigo Mansilha (UNIPAMPA)
-          - Charles Miers (UDESC)
-          - Joner Assolin (UFAM)
           - Eduardo Feitosa (UFAM)
 
   - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
