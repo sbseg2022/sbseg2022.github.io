@@ -445,7 +445,7 @@ salao-de-ferramentas:
           - Lourenco Pereira Jr (ITA)
 
   - title: APRESENTAÇÃO NA SALA VIRTUAL
-    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
     time: 10:00-10:30
     articles:
       - title: "LST 2.0: Testbed Emulado Baseado em Contêineres para Redes SDN Seguras"
@@ -463,7 +463,7 @@ salao-de-ferramentas:
           - Eduardo Feitosa (UFAM)
 
   - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
-    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
     time: 10:00-10:30
     articles:
       - title: "FWNL: Um Sistema de Processamento de Linguagem Natural para Configuração de Múltiplos Firewalls"
@@ -476,7 +476,7 @@ salao-de-ferramentas:
           - Rodrigo Mansilha (UNIPAMPA)
 
   - title: APRESENTAÇÃO NA SALA VIRTUAL
-    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
     time: 15:00-15:30
     articles:
       - title: "DroidAutoML: uma Ferramenta de AutoML para o Domı́nio de Detecção de Malwares Android"
@@ -497,7 +497,7 @@ salao-de-ferramentas:
           - Eduardo Feitosa (UFAM)
 
   - title: APRESENTAÇÃO PRESENCIAL (JUNTO AO COFFEE BREAK)
-    date: TERÇA-FEIRA, 14 DE SETEMBRO
+    date: QUARTA-FEIRA, 14 DE SETEMBRO
     time: 15:00-15:30
     articles:
       - title: "ERENO-UI: Uma Ferramenta para a Geração de Conjuntos de Dados para a Detecção de Intrusão em Redes IEC-61850"
