@@ -1,0 +1,25 @@
+---
+permalink: /fotos.html
+layout: page
+title: Fotos do evento
+---
+<div class="row flex-column gy-5 no-gutters">
+    <div id="days" class="col">
+        <div id="segunda-feira" class="collapse show" data-parent="#days">
+            {% include image-gallery.html name="pictures-segunda" path="images/pictures/segunda-feira" %}
+        </div>
+        <div id="terca-feira" class="collapse" data-parent="#days">
+            {% include image-gallery.html name="pictures-terca" path="images/pictures/terca-feira" %}
+        </div>
+    </div>
+    <div class="btn-group always-one-open col" role="group">
+        <button type="button" class="btn btn-outline-primary active" data-toggle="collapse" data-target="#segunda-feira"
+                aria-expanded="true" aria-controls="segunda-feira">
+            Segunda-feira
+        </button>
+        <button type="button" class="btn btn-outline-primary collapsed" data-toggle="collapse"
+                data-target="#terca-feira" aria-expanded="false" aria-controls="terca-feira">
+            Terça-feira
+        </button>
+    </div>
+</div>

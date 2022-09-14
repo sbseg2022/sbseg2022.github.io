@@ -466,6 +466,23 @@ h5 {
     overflow-x: auto;
 }
 
+.photo-gallery,
+.photo-gallery .carousel-item {
+    height: 500px;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.invert-1 {
+    filter: invert(1);
+}
+
 /*bordas de todas class tg*/
 .tg  {border-collapse:collapse;border-spacing:0;table-layout:auto;}
 /*bordas e estilo de fontes de todas celulas da tabela*/
