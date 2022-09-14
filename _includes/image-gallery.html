@@ -1,10 +1,11 @@
-<div class="photo-gallery carousel slide" data-ride="carousel" id="{{ include.name }}">
+<div class="photo-gallery carousel-with-smaller-images carousel slide" data-ride="carousel" id="{{ include.name }}">
     <div class="carousel-inner">
+        {% assign thumbs_path = include.path | append: '/thumbs' %}
         {% assign first_found = false %}
         {% for image in site.static_files %}
             {% if image.path contains include.path %}
-                <div class="carousel-item{% unless first_found %} active{% assign first_found = true %}{% endunless %}">
-                    <img class="d-block vertical-center mh-100 mw-100" src="{{ image.path }}"/>
+                <div class="carousel-item{% unless first_found %} active{% assign first_found = true %}{% assign first_path = image.path %}{% endunless %}" data-href-to-high-quality-version="{{ image.path }}">
+                    <img class="d-block vertical-center mh-100 mw-100" src="{{ image.path | replace: include.path, thumbs_path }}"/>
                 </div>
             {% endif %}
         {% endfor %}
@@ -18,3 +19,5 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+<a class="btn btn-primary d-block mt-3 open-high-quality-version" href="{{ first_path }}" target="_blank">Abrir versão ampliada</a>

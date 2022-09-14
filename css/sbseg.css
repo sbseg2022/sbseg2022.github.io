@@ -402,6 +402,10 @@ h5 {
     row-gap: 3rem;
 }
 
+.gy-3 {
+    row-gap: 1.5rem;
+}
+
 .gy-30px {
     row-gap: 30px;
 }
